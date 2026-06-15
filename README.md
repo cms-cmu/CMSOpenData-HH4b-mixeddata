@@ -204,6 +204,14 @@ Current validation result:
 All Jet Parquet outputs passed validation.
 ```
 
+## Jet Summary Plots
+
+Quick validation plots were created from the Jet-only Parquet outputs using:
+
+```bash
+python scripts/plot_jet_summaries.py
+
+
 ## Current Status
 
 Completed so far:
