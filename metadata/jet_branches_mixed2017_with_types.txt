@@ -1,3 +1,6 @@
+run: uint32_t
+event: uint64_t
+luminosityBlock: uint32_t
 nJet: uint32_t
 Jet_pt: float[]
 Jet_eta: float[]

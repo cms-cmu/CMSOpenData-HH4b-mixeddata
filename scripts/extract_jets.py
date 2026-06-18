@@ -62,15 +62,24 @@ def parse_args():
     return parser.parse_args()
 
 
+
 def find_jet_branches(tree):
     """
-    Find Jet-related branches in the Events TTree.
+    Find branches needed for the Jet-only derived dataset.
 
-    We keep:
+    We keep event-identification branches:
+        - run
+        - event
+        - luminosityBlock
+
+    We also keep Jet-related branches:
         - nJet
         - every branch that starts with Jet_
 
-    Example:
+    Examples:
+        run
+        event
+        luminosityBlock
         nJet
         Jet_pt
         Jet_eta
@@ -79,12 +88,22 @@ def find_jet_branches(tree):
     """
     branches = list(tree.keys())
 
-    jet_branches = [
-        branch for branch in branches
-        if branch == "nJet" or branch.startswith("Jet_")
-    ]
+    event_id_branches = ["run", "event", "luminosityBlock"]
 
-    return jet_branches
+    selected_branches = []
+
+    # Add event-identification branches first.
+    for branch in event_id_branches:
+        if branch not in branches:
+            raise ValueError(f"Required branch is missing from ROOT file: {branch}")
+        selected_branches.append(branch)
+
+    # Add Jet branches.
+    for branch in branches:
+        if branch == "nJet" or branch.startswith("Jet_"):
+            selected_branches.append(branch)
+
+    return selected_branches
 
 
 def save_branch_metadata(year, root_file, tree, jet_branches):

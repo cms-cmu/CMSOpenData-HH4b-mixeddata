@@ -9,7 +9,15 @@ EXPECTED_EVENTS = {
     "2018": 162896,
 }
 
-EXPECTED_FIELD_COUNT = 38
+EXPECTED_FIELD_COUNT = 41
+
+REQUIRED_BRANCHES = [
+    "run",
+    "event",
+    "luminosityBlock",
+    "nJet",
+    "Jet_pt",
+]
 
 
 def validate_year(year, expected_events):
@@ -19,8 +27,9 @@ def validate_year(year, expected_events):
     This checks:
     1. Parquet files exist.
     2. Each file can be read with Awkward Array.
-    3. Each file has the expected number of Jet fields.
-    4. The total event count matches the original ROOT file event count.
+    3. Each file has the expected number of selected fields.
+    4. Required event ID and Jet branches are present.
+    5. The total event count matches the original ROOT file event count.
     """
     print(f"\nChecking year {year}...")
 
@@ -42,7 +51,7 @@ def validate_year(year, expected_events):
         arrays = ak.from_parquet(parquet_file)
 
         events_in_file = len(arrays)
-        fields = ak.fields(arrays)
+        fields = list(ak.fields(arrays))
 
         total_events += events_in_file
         field_counts.add(len(fields))
@@ -53,22 +62,31 @@ def validate_year(year, expected_events):
             print(f"WARNING: Field mismatch found in {parquet_file}")
             passed = False
 
+        missing_required = [
+            branch for branch in REQUIRED_BRANCHES if branch not in fields
+        ]
+
+        if missing_required:
+            print(f"FAIL: Missing required branches in {parquet_file}: {missing_required}")
+            passed = False
+
         print(
             f"  {parquet_file.name}: "
             f"{events_in_file} events, "
-            f"{len(fields)} Jet fields"
+            f"{len(fields)} selected fields"
         )
 
     print(f"Total events read from Parquet: {total_events}")
     print(f"Expected events: {expected_events}")
     print(f"Field counts seen: {sorted(field_counts)}")
+    print(f"Required branches checked: {REQUIRED_BRANCHES}")
 
     if total_events != expected_events:
         print(f"FAIL: Event count mismatch for {year}")
         passed = False
 
     if field_counts != {EXPECTED_FIELD_COUNT}:
-        print(f"FAIL: Expected {EXPECTED_FIELD_COUNT} Jet fields for {year}")
+        print(f"FAIL: Expected {EXPECTED_FIELD_COUNT} selected fields for {year}")
         passed = False
 
     if passed:
