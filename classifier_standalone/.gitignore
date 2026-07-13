@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.pixi/
+.venv/
+.env
+
+# Snakemake
+.snakemake/
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Runtime outputs
+outputs/*
+!outputs/.gitkeep
+
+# Input placeholders
+inputs/*
+!inputs/.gitkeep
+
+# Large data/model files
+*.root
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.parquet
+*.h5
+*.npy
+*.npz
+
+# Editor/system
+.DS_Store
+.vscode/
+*.bak

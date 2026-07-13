@@ -1,0 +1,124 @@
+{
+  "HCR_input": {
+    "name": "HCR_input",
+    "branches": [
+      "xbW",
+      "ZHSR",
+      "SB",
+      "ZZSR",
+      "nSelJets",
+      "weight",
+      "xW",
+      "fourTag",
+      "SR",
+      "HHSR",
+      "threeTag",
+      "passHLT",
+      "nNotCanJet",
+      "NotCanJet_phi",
+      "NotCanJet_isSelJet",
+      "NotCanJet_mass",
+      "NotCanJet_pt",
+      "NotCanJet_eta",
+      "nCanJet",
+      "CanJet_phi",
+      "CanJet_pt",
+      "CanJet_eta",
+      "CanJet_mass"
+    ],
+    "data": [
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016F/picoAOD.root",
+          "name": "Events",
+          "uuid": "6c873192-05bc-11ee-b259-80bde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100,
+            "chunk": {
+              "path": "inputs/parquet_friends/week3_eval2/HCR_input/data_UL16_postVFPF__HCR_input.parquet",
+              "name": "Events",
+              "uuid": null,
+              "num_entries": 100,
+              "entry_start": null,
+              "entry_stop": null,
+              "branches": [
+                "xbW",
+                "ZHSR",
+                "SB",
+                "ZZSR",
+                "nSelJets",
+                "weight",
+                "xW",
+                "fourTag",
+                "SR",
+                "HHSR",
+                "threeTag",
+                "passHLT",
+                "nNotCanJet",
+                "NotCanJet_phi",
+                "NotCanJet_isSelJet",
+                "NotCanJet_mass",
+                "NotCanJet_pt",
+                "NotCanJet_eta",
+                "nCanJet",
+                "CanJet_phi",
+                "CanJet_pt",
+                "CanJet_eta",
+                "CanJet_mass"
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016G/picoAOD.root",
+          "name": "Events",
+          "uuid": "8baeb004-05bc-11ee-b86a-5bbce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100,
+            "chunk": {
+              "path": "inputs/parquet_friends/week3_eval2/HCR_input/data_UL16_postVFPG__HCR_input.parquet",
+              "name": "Events",
+              "uuid": null,
+              "num_entries": 100,
+              "entry_start": null,
+              "entry_stop": null,
+              "branches": [
+                "xbW",
+                "ZHSR",
+                "SB",
+                "ZZSR",
+                "nSelJets",
+                "weight",
+                "xW",
+                "fourTag",
+                "SR",
+                "HHSR",
+                "threeTag",
+                "passHLT",
+                "nNotCanJet",
+                "NotCanJet_phi",
+                "NotCanJet_isSelJet",
+                "NotCanJet_mass",
+                "NotCanJet_pt",
+                "NotCanJet_eta",
+                "nCanJet",
+                "CanJet_phi",
+                "CanJet_pt",
+                "CanJet_eta",
+                "CanJet_mass"
+              ]
+            }
+          }
+        ]
+      ]
+    ]
+  }
+}
