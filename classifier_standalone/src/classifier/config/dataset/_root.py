@@ -156,6 +156,7 @@ class LoadRoot(ABC, Dataset):
             chunksize=self.opts.train_chunksize,
             tree=self.opts.tree,
             preserve_order=self.opts.preserve_order,
+            max_root_chunks=getattr(self.opts, "max_root_chunks", 0),
         )
         loader.to_tensor = self.to_tensor
         loader.postprocessors = self.postprocessors
@@ -374,12 +375,14 @@ class _load_root:
         chunksize: int,
         tree: str,
         preserve_order: bool,
+        max_root_chunks: int = 0,
     ):
         self._from_root = from_root
         self._max_workers = max_workers
         self._chunksize = chunksize
         self._tree = tree
         self._preserve_order = preserve_order
+        self._max_root_chunks = max_root_chunks or 0
 
     def __call__(self):
         data = self.load()
@@ -425,7 +428,7 @@ class _load_root:
             ) as progress:
                 dfs = []
                 loaded_root_chunks = 0
-                max_root_chunks = getattr(self.opts, "max_root_chunks", 0)
+                max_root_chunks = self._max_root_chunks
 
                 for i in range(len(chunks)):
                     for chunk in Chunk.balance(
