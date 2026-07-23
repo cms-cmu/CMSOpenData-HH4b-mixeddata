@@ -482,13 +482,55 @@ class TreeReader(_Reader):
             branches = self._filter(branches)
         path = str(source.path)
         if path.endswith(".parquet"):
-            data = ak.from_parquet(path)
+            import pyarrow.parquet as pq
+
+            columns = None
+            if branches is not None and branches is not ...:
+                columns = list(branches)
+
+            parquet = pq.ParquetFile(path)
+
+            start = source.entry_start or 0
+            stop = source.entry_stop
+            if stop is None:
+                stop = parquet.metadata.num_rows
+
+            # Read only row groups overlapping the requested event range.
+            row_groups = []
+            first_row = None
+            offset = 0
+
+            for i in range(parquet.num_row_groups):
+                n_rows = parquet.metadata.row_group(i).num_rows
+                rg_start = offset
+                rg_stop = offset + n_rows
+
+                if rg_stop > start and rg_start < stop:
+                    if first_row is None:
+                        first_row = rg_start
+                    row_groups.append(i)
+
+                if rg_start >= stop:
+                    break
+
+                offset = rg_stop
+
+            if not row_groups:
+                data = ak.Array([])
+            else:
+                table = parquet.read_row_groups(
+                    row_groups,
+                    columns=columns,
+                )
+                data = ak.from_arrow(table)
+
+                local_start = start - first_row
+                local_stop = local_start + (stop - start)
+                data = data[local_start:local_stop]
 
             if branches is not None and branches is not ...:
                 selected = [b for b in data.fields if b in branches]
                 data = ak.Array({b: data[b] for b in selected})
-
-            data = data[source.entry_start : source.entry_stop]
 
             if library == "ak":
                 out = data

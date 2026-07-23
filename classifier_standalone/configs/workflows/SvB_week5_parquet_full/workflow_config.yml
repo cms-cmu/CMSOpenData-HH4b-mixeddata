@@ -1,0 +1,23 @@
+# Standalone SvB workflow config
+#
+# This file is adapted from the original coffea4bees SvB workflow config.
+# The goal is to run training and evaluation outside barista + coffea4bees.
+
+eos_base: "."
+plot_base: "outputs/SvB_week5_parquet_full/plots"
+
+classifier_config_paths: "."
+wfs_base: configs/workflows/SvB_week5_parquet_full
+label: SvB_week5_parquet_full
+output_dir: outputs/SvB_week5_parquet_full
+
+plot_inputs: false
+plot_weights: false
+
+model: "outputs/SvB_week5_parquet_full/classifier"
+friend: "outputs/SvB_week5_parquet_full/friend"
+
+train_template: "model: outputs/SvB_week5_parquet_full/classifier, FvT: inputs/friend/FvT_nominal"
+eval_template: "model: outputs/SvB_week5_parquet_full/classifier, SvB: outputs/SvB_week5_parquet_full/friend"
+
+metadata: "configs/metadata/datasets_HH4b_Run2/2024_v2/classifier_inputs_week3_cmu.json@@HCR_input"

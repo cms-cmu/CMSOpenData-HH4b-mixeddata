@@ -1,0 +1,50 @@
+ZZ4b:
+  UL16_postVFP:
+    nanoAOD: /ZZTo4B01j_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v2/NANOAODSIM
+    picoAOD:
+      count: 18140347.0
+      files:
+      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/ZZ4b_UL16_postVFP_consolidated.parquet
+      missing: {}
+      saved_events: 734838
+      sumw: 10382145.55479937
+      sumw2: 14636920.099015618
+      total_events: 18140347
+  UL16_preVFP:
+    nanoAOD: /ZZTo4B01j_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODAPVv9-106X_mcRun2_asymptotic_preVFP_v11-v2/NANOAODSIM
+    picoAOD:
+      count: 19351585.0
+      files:
+      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/ZZ4b_UL16_preVFP_consolidated.parquet
+      missing: {}
+      saved_events: 721570
+      sumw: 11073789.57841955
+      sumw2: 15614232.92698365
+      total_events: 19351585
+  UL17:
+    nanoAOD: /ZZTo4B01j_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM
+    picoAOD:
+      count: 38639348
+      files:
+      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/ZZ4b_UL17_consolidated.parquet
+      missing: {}
+      saved_events: 2187811
+      sumw: 22118696.50512064
+      sumw2: 31176969.732390415
+      sumw2_raw: 31176981.627685547
+      sumw_raw: 22118697.251464844
+      total_events: 38639348
+  UL18:
+    nanoAOD: /ZZTo4B01j_5f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM
+    picoAOD:
+      count: 39650048
+      files:
+      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/ZZ4b_UL18_consolidated.parquet
+      missing: {}
+      saved_events: 2060875
+      sumw: 22702525.975181084
+      sumw2: 31992474.261828285
+      sumw2_raw: 31992486.365234375
+      sumw_raw: 22702526.780517578
+      total_events: 39650048
+  xs: 15.5   *0.1512*0.1512

@@ -359,6 +359,32 @@ class _fetch:
                 entry_stop=self._max_entries,
             )
 
+        if path_str.endswith(".parquet"):
+            import pyarrow.parquet as pq
+            from uuid import NAMESPACE_URL, uuid5
+
+            parquet = pq.ParquetFile(path_str)
+            num_entries = parquet.metadata.num_rows
+            branches = parquet.schema_arrow.names
+
+            print(
+                f"[DEBUG opening Parquet path] {path_str} "
+                f"entries={num_entries}",
+                flush=True,
+            )
+
+            return Chunk(
+                source=(
+                    path_str,
+                    uuid5(NAMESPACE_URL, path_str),
+                ),
+                name=self._tree,
+                branches=branches,
+                num_entries=num_entries,
+                entry_start=0,
+                entry_stop=num_entries,
+            )
+
         print(f"[DEBUG opening ROOT path] {path}", flush=True)
         chunk = Chunk(source=path, name=self._tree, fetch=True)
         return chunk

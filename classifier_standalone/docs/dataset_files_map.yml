@@ -1145,3 +1145,135 @@ mixeddata_all_UL18D:
   - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk7.root
   - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk8.root
   - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk9.root
+TTTo2L2Nu_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/picoAOD.root
+TTTo2L2Nu_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/picoAOD.root
+TTTo2L2Nu_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/picoAOD.root
+TTTo2L2Nu_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/picoAOD.root
+TTToHadronic_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/picoAOD.root
+TTToHadronic_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/picoAOD.root
+TTToHadronic_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/picoAOD.root
+TTToHadronic_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/picoAOD.root
+TTToSemiLeptonic_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/picoAOD.root
+TTToSemiLeptonic_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/picoAOD.root
+TTToSemiLeptonic_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/picoAOD.root
+TTToSemiLeptonic_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/picoAOD.root
