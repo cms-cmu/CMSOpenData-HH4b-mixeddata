@@ -49,6 +49,61 @@ REQUIRED_CLASSIFIER_BRANCHES = {
     "FvT",
 }
 
+PICO_DROP_PREFIXES = (
+    "Electron_",
+    "L1PreFiring",
+    "L1PreFirering",
+    "MET_",
+    "Muon_",
+    "RawMET_",
+    "fixedGridRhoFastJet",
+    "fixedGridRhoFastjet",
+    "PV",
+    "Flag_",
+    "HLT",
+)
+
+PICO_DROP_EXACT = {
+    "nElectron",
+    "nMuon",
+    "MET",
+    "RawMET",
+}
+
+
+def keep_pico_branch(branch: str) -> bool:
+    if branch == "nJet" or branch.startswith("Jet_"):
+        return True
+
+    if branch in PICO_DROP_EXACT:
+        return False
+
+    return not branch.startswith(PICO_DROP_PREFIXES)
+
+
+def validate_all_jet_branches(
+    pico_fields: set[str],
+    merged_fields: set[str],
+) -> None:
+    pico_jets = {
+        branch
+        for branch in pico_fields
+        if branch == "nJet" or branch.startswith("Jet_")
+    }
+
+    missing = sorted(
+        branch
+        for branch in pico_jets
+        if branch not in merged_fields
+        and f"pico_{branch}" not in merged_fields
+    )
+
+    if missing:
+        raise RuntimeError(
+            "Missing picoAOD Jet branches: "
+            + ", ".join(missing)
+        )
+
 REQUIRED_REFERENCE_BRANCHES = {
     "ref_SvB_MA_phh",
     "ref_SvB_MA_pzz",
@@ -158,7 +213,12 @@ def merge_components(
 
     merged: dict[str, ak.Array] = {}
 
+    pico_fields = set(ak.fields(pico))
+
     for branch in ak.fields(pico):
+        if not keep_pico_branch(branch):
+            continue
+
         if branch in canonical_friend_names:
             output_name = f"pico_{branch}"
         else:
@@ -187,10 +247,16 @@ def merge_components(
             f"ref_SvB_MA_{normalized_branch}"
         ] = svb[branch]
 
+    validate_all_jet_branches(
+        pico_fields,
+        set(merged),
+    )
+
     return ak.zip(
         merged,
         depth_limit=1,
     )
+
 
 
 def validate_required_branches(
