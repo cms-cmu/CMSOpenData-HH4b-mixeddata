@@ -6,13 +6,13 @@ repo = Path.cwd()
 
 src = (
     repo
-    / "classifier_standalone/configs/metadata/"
+    / "configs/metadata/"
     "datasets_HH4b_Run2/2024_v2_cmu"
 )
 
 dst = (
     repo
-    / "classifier_standalone/configs/metadata/"
+    / "configs/metadata/"
     "datasets_HH4b_Run2/2024_v2_week5_parquet"
 )
 

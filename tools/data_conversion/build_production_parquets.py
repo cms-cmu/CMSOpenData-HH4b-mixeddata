@@ -10,30 +10,27 @@ from pathlib import Path
 import yaml
 
 
-MAP = Path(
-    "classifier_standalone/docs/dataset_files_map.yml"
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parents[1]
+
+MAP = SCRIPT_DIR / "dataset_files_map.yml"
+MERGER = SCRIPT_DIR / "consolidate_dataset.py"
+CONVERTER = SCRIPT_DIR / "convert_dataset_to_parquet.py"
+
+# Reuse the interpreter that launched this driver instead of assuming
+# a repository-specific Pixi environment path.
+PYTHON = Path(sys.executable)
+
+OUTPUT_DIR = (
+    REPO_ROOT
+    / "outputs"
+    / "consolidated_production"
 )
 
-MERGER = Path(
-    "classifier_standalone/scripts/"
-    "consolidate_dataset.py"
-)
-
-CONVERTER = Path(
-    "classifier_standalone/scripts/"
-    "convert_dataset_to_parquet.py"
-)
-
-PYTHON = Path(
-    "classifier_standalone/.pixi/envs/default/bin/python"
-)
-
-OUTPUT_DIR = Path(
-    "outputs/consolidated_production"
-)
-
-LOG_DIR = Path(
-    "logs/production_parquets"
+LOG_DIR = (
+    REPO_ROOT
+    / "logs"
+    / "production_parquets"
 )
 
 # These currently have invalid/incomplete source pairings.

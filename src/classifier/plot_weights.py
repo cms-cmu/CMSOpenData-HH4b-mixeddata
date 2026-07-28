@@ -6,7 +6,7 @@ alongside key kinematics (CanJet_pt[0] and selected jet counts), computes weight
 statistics (including effective sample size), and generates diagnostic plots.
 
 Usage:
-  ./run_container classifier_cpu python src/classifier/plot_weights.py \
+  pixi run python src/classifier/plot_weights.py \
       --checkpoint output/some_model/ \
       --metadata coffea4bees/metadata/datasets_HH4b_Run2/2024_v2/classifier_inputs_lowpt_tightWP_wlowptJCM.json@@HCR_input_lowpt \
       --output-dir output/weight_debug

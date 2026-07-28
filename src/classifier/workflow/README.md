@@ -22,7 +22,7 @@ From the barista root directory:
 
 ```bash
 ## open a tmux session
-./run_container snakemake \
+pixi run snakemake \
     --snakefile src/classifier/workflow/Snakefile \
     --configfile <path/to/workflow_config.yml> 
     --cores 1 \
@@ -32,7 +32,7 @@ From the barista root directory:
 Dry-run to preview the DAG without executing:
 
 ```bash
-./run_container snakemake \
+pixi run snakemake \
     --snakefile src/classifier/workflow/Snakefile \
     --configfile <path/to/workflow_config.yml> \
     -np
@@ -41,7 +41,7 @@ Dry-run to preview the DAG without executing:
 Run a single rule (e.g. only train):
 
 ```bash
-./run_container snakemake \
+pixi run snakemake \
     --snakefile src/classifier/workflow/Snakefile \
     --configfile <path/to/workflow_config.yml> \
     --cores 1 \

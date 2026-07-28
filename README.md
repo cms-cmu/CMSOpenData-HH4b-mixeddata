@@ -1,236 +1,162 @@
+# HH4b Classifier Standalone
 
-# CMSOpenData-HH4b-mixeddata
+Standalone repository for the HH4b SvB classifier training and evaluation workflow.
 
-## Overview
+This repo separates the classifier workflow from the larger `barista` and `coffea4bees` analysis repositories. The goal is to run the classifier from a clean, independent repository and support a small training/evaluation smoke test using ROOT and Parquet friend inputs.
 
-This repository contains early workflow development for preparing and validating Jet-only derived datasets from CMS HH4b mixeddata ROOT files.
+## Week 4 Goal
 
-The current focus is to extract Jet-related variables from CMS Run 2 mixeddata samples for 2016, 2017, and 2018. The extracted Jet variables are saved as chunked Parquet files so they can be used more easily in downstream Python analysis workflows.
+The Week 4 goal was to isolate the HH4b/SvB classifier code from the main analysis-specific repositories and prove that the workflow can run independently.
 
-This work supports the broader goal of preparing a public, documented, and reproducible mixeddata benchmark for CMS HH4b background modeling studies.
+The mentor request was:
 
-## Current Workflow
+1. Do not run the full production job.
+2. Run a small test using 2 files.
+3. Convert ROOT friend trees into Parquet files.
+4. Modify the code to read Parquet files instead of ROOT friend files.
+5. Test again with a few events.
 
-The workflow currently does the following:
+## What This Repo Does
 
-1. Opens CMS HH4b mixeddata ROOT files with `uproot`.
-2. Inspects the `Events` TTree.
-3. Finds Jet-related branches automatically.
-4. Extracts:
+This repo currently supports:
 
-   * `nJet`
-   * all branches starting with `Jet_`
-5. Saves Jet-only data as chunked Parquet files.
-6. Validates that the Parquet files can be read back correctly.
-7. Confirms that event counts match the original ROOT files.
+- Standalone SvB training smoke test
+- Standalone SvB evaluation smoke test
+- ROOT friend tree to Parquet conversion
+- Parquet friend metadata generation
+- Evaluation using Parquet friend inputs
+- Writing ROOT SvB friend prediction outputs
 
-## Repository Structure
+## Week 4 Accomplishments
 
-```text
-metadata/
-    branches_mixed2016.txt
-    branches_mixed2017.txt
-    branches_mixed2018.txt
-    jet_branches_mixed2016.txt
-    jet_branches_mixed2017.txt
-    jet_branches_mixed2018.txt
-    jet_branches_mixed2016_with_types.txt
-    jet_branches_mixed2017_with_types.txt
-    jet_branches_mixed2018_with_types.txt
+### 1. Created a standalone classifier repo
 
-notes/
-    week1_setup.md
-    jet_extraction_summary.md
+The classifier workflow now runs from:
 
-scripts/
-    extract_jets.py
-    extract_jets_2016.py
-    extract_jets_2016_full.py
-    validate_jet_outputs.py
+`CMSOpenData-HH4b-mixeddata/`
 
-outputs/
-    jets/
-        2016/
-        2017/
-        2018/
-```
+GitHub repo:
 
-The `outputs/` directory contains generated Parquet files. These files are not committed to GitHub because they are generated data products and are ignored by `.gitignore`.
+`https://github.com/IngFrancis/hh4b-classifier-standalone`
 
-## Input ROOT Files
+### 2. Built standalone CMU metadata
 
-The current workflow uses the following CMS HH4b mixeddata ROOT files:
+Standalone metadata was generated under:
 
-| Year | Input ROOT File                                                                                                                |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 2016 | `root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/mixed2016_3bDvTMix4bDvT_v0/picoAOD_3bDvTMix4bDvT_4b_wJCM_v0_newSBDef.root` |
-| 2017 | `root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/mixed2017_3bDvTMix4bDvT_v0/picoAOD_3bDvTMix4bDvT_4b_wJCM_v0_newSBDef.root` |
-| 2018 | `root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/mixed2018_3bDvTMix4bDvT_v0/picoAOD_3bDvTMix4bDvT_4b_wJCM_v0_newSBDef.root` |
+- `configs/metadata/datasets_HH4b_Run2/2024_v2_cmu/`
+- `configs/metadata/datasets_HH4b_Run2/2024_v2_cmu_eval2/`
 
-## Environment Setup
+Important files include:
 
-Create and activate a Python virtual environment:
+- `classifier_inputs_week3_cmu.json`
+- `classifier_inputs_week3_cmu_parquet.json`
+- `fvt_inputs_week3_cmu.json`
+- `fvt_inputs_week3_cmu_parquet.json`
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
+### 3. Updated the SvB workflow configs
 
-Install required Python packages:
+Updated files:
 
-```bash
-python -m pip install --upgrade pip
-python -m pip install uproot awkward numpy pyarrow coffea xrootd fsspec-xrootd
-```
+- `configs/workflows/SvB/train.yml`
+- `configs/workflows/SvB/evaluate.yml`
+- `configs/workflows/SvB/workflow_config.yml`
 
-## Running on the Cluster
+### 4. Verified standalone training
 
-Light tasks such as editing files, checking Git status, and writing notes can be done on the Falcon head node.
+The standalone training smoke test completed and produced:
 
-Data processing should be done on a Slurm compute node. Start an interactive compute session with:
+- `outputs/SvB_standalone_test/train.done`
+- `outputs/SvB_standalone_test/classifier/result.json`
+- `outputs/SvB_standalone_test/classifier/states.pkl`
+- model `.pkl` files
 
-```bash
-srun --mem=4G --time=04:00:00 --pty bash
-```
+### 5. Converted ROOT friend trees to Parquet
 
-Then return to the project directory and activate the environment:
+Scripts added:
 
-```bash
-cd ~/pursue2026/CMSOpenData-HH4b-mixeddata
-source .venv/bin/activate
-```
+- `scripts/convert_friend_root_to_parquet.py`
+- `scripts/check_parquet_friends.py`
+- `scripts/build_parquet_friend_metadata.py`
 
-## Jet Extraction
+Parquet friend inputs were generated for `HCR_input` and `FvT_weight` using 100 events per file.
 
-The main scalable extraction script is:
+### 6. Added Parquet support
 
-```text
-scripts/extract_jets.py
-```
+The reader was patched so `.parquet` friend paths can be read with `ak.from_parquet`.
 
-Run the extraction for a specific year:
+Main file:
 
-```bash
-python scripts/extract_jets.py --year 2016
-python scripts/extract_jets.py --year 2017
-python scripts/extract_jets.py --year 2018
-```
+- `src/data_formats/root/io.py`
 
-For a small test run, use `--max-parts`:
+### 7. Fixed standalone smoke-test blockers
 
-```bash
-python scripts/extract_jets.py --year 2016 --max-parts 1
-```
+The evaluation path originally stalled during the standalone test. The fixes included:
 
-This processes only the first chunk and is useful for testing.
+- Avoiding remote ROOT metadata fetching for tiny smoke chunks
+- Avoiding `ProcessPoolExecutor` when evaluating with one evaluator
+- Adding Parquet friend input reading
+- Adding runtime `pandas` support for Parquet-to-Pandas conversion
+- Handling missing `p_ttbar` in tiny smoke-test model outputs
 
-## Branch Selection
+Important patched files:
 
-The extraction keeps:
+- `src/classifier/config/dataset/_root.py`
+- `src/classifier/config/main/evaluate.py`
+- `src/classifier/config/model/HCR/SvB/ggF/all_kl.py`
+- `src/data_formats/root/io.py`
 
-```text
-nJet
-all branches starting with Jet_
-```
+### 8. Completed Parquet evaluation smoke test
 
-This produced 38 Jet-related branches for each year.
+Final test setup:
 
-The Jet branch lists are saved in:
+- 2 CMU input files
+- 100 events per file
 
-```text
-metadata/jet_branches_mixed2016.txt
-metadata/jet_branches_mixed2017.txt
-metadata/jet_branches_mixed2018.txt
-```
+Input files:
 
-The Jet branch lists for 2016, 2017, and 2018 were compared with `diff`, and no differences were found.
+- `data2016F/picoAOD.root`
+- `data2016G/picoAOD.root`
 
-## Extraction Results
+Successful result:
 
-| Year | Events in ROOT File | Jet Branches Extracted | Parquet Parts Written | Validation |
-| ---- | ------------------: | ---------------------: | --------------------: | ---------- |
-| 2016 |             115,764 |                     38 |                     3 | Passed     |
-| 2017 |             111,951 |                     38 |                     3 | Passed     |
-| 2018 |             162,896 |                     38 |                     4 | Passed     |
+- `exit_code=0`
+- `outputs/SvB_standalone_test/evaluate.done`
 
-Total extracted events across all three years:
+The evaluation wrote two ROOT friend prediction chunks, each with 100 entries.
 
-```text
-390,611
-```
+Output branches included:
 
-## Output Files
+- `q_1234`
+- `q_1324`
+- `q_1423`
+- `p_multijet`
+- `p_ttbar`
+- `p_bkg`
+- `p_ZZ`
+- `p_ZH`
+- `p_ggF`
+- `p_sig`
 
-The Jet-only Parquet files are saved locally under:
+## Verified Smoke-Test Path
 
-```text
-outputs/jets/2016/
-outputs/jets/2017/
-outputs/jets/2018/
-```
+ROOT friend trees were converted to Parquet friend files, the Parquet metadata was generated, the standalone Snakemake evaluation ran successfully, and ROOT SvB friend prediction chunks were written.
 
-Example output files:
+## What Is Not Claimed Yet
 
-```text
-outputs/jets/2016/jets_2016_part0000.parquet
-outputs/jets/2017/jets_2017_part0000.parquet
-outputs/jets/2018/jets_2018_part0000.parquet
-```
+This is a smoke-test implementation, not a full production-scale run.
 
-## Validation
+Not yet complete:
 
-The validation script is:
+- Full production training over all files
+- Full production evaluation over all files
+- Removing or replacing `pyml.py`
+- Full packaging as a polished long-term standalone library
+- Large-scale benchmarking and physics validation
 
-```text
-scripts/validate_jet_outputs.py
-```
+## Latest Verified Commit
 
-Run:
+`e187ab4 Add standalone Parquet SvB evaluation smoke test`
 
-```bash
-python scripts/validate_jet_outputs.py
-```
+## Summary
 
-The script checks that:
-
-1. Parquet files exist for each year.
-2. Each Parquet file can be read with Awkward Array.
-3. Each file has 38 Jet fields.
-4. The total number of events read from Parquet matches the original ROOT file event count.
-
-Current validation result:
-
-```text
-All Jet Parquet outputs passed validation.
-```
-
-## Jet Summary Plots
-
-Quick validation plots were created from the Jet-only Parquet outputs using:
-
-```bash
-python scripts/plot_jet_summaries.py
-
-
-## Current Status
-
-Completed so far:
-
-* Set up repository structure.
-* Created Python environment.
-* Opened and inspected the 2016 ROOT file.
-* Saved branch metadata for 2016, 2017, and 2018.
-* Built a scalable Jet extraction script.
-* Extracted Jet-only Parquet files for 2016, 2017, and 2018.
-* Validated all Jet-only Parquet outputs.
-* Documented the extraction workflow and results.
-
-## Next Steps
-
-Potential next steps include:
-
-1. Add more dataset files beyond the first mixeddata file per year.
-2. Generalize the workflow to handle multiple files per year.
-3. Add summary plots for Jet variables such as `Jet_pt`, `Jet_eta`, and `nJet`.
-4. Compare distributions across 2016, 2017, and 2018.
-5. Prepare additional documentation for public release and reproducibility.
+The Week 4 milestone has been completed at smoke-test level. The classifier workflow is isolated in a standalone repository, training and evaluation work on a small 2-file test, ROOT friend trees were converted to Parquet, the code was modified to read Parquet inputs, and the few-event Parquet evaluation completes successfully.

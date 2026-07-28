@@ -5,7 +5,7 @@ Plot set 1 (--mode raw):      raw branches from friend tree ROOT files
 Plot set 2 (--mode dataprep):  features after model.inputEmbed.dataPrep()
 
 Usage:
-  ./run_container classifier_cpu python src/classifier/plot_inputs.py \
+  pixi run python src/classifier/plot_inputs.py \
       --mode raw \
       --checkpoint root://cmseos.fnal.gov//store/user/algomez/XX4b/2024_v2/classifier/SvB_lowpt/ \
       --metadata coffea4bees/metadata/datasets_HH4b_Run2/2024_v2/classifier_inputs_lowpt_wlowptJCM.json@@HCR_input_lowpt \

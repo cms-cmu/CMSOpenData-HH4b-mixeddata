@@ -1,5 +1,45 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environments
+.pixi/
+.venv/
+.env
+
+# Snakemake
+.snakemake/
+
+# Logs
+logs/
+*.log
+
+# Runtime outputs
+outputs/
+
+# Input placeholders
+inputs/
+
+# Large data and model files
 *.root
 *.parquet
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.h5
+*.npy
+*.npz
+
+# Temporary and backup files
+tmp/
+*.bak
+
+# Grid credentials
+proxy/
+
+# Editor and operating-system files
+.DS_Store
+.vscode/

@@ -10,9 +10,8 @@ import uproot
 import yaml
 
 
-DEFAULT_MAP = Path(
-    "classifier_standalone/docs/dataset_files_map.yml"
-)
+DEFAULT_SCRIPT_DIR = Path(__file__).resolve().parent
+MAP = SCRIPT_DIR / "dataset_files_map.yml"
 
 COMPONENTS = (
     "picoAOD",

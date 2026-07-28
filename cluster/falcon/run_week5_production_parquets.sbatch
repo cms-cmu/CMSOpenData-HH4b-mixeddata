@@ -13,24 +13,43 @@
 
 set -euo pipefail
 
-cd ~/pursue2026/CMSOpenData-HH4b-mixeddata
+SCRIPT_DIR="$(
+    cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
+    pwd
+)"
+
+REPO_ROOT="$(
+    cd -- "${SCRIPT_DIR}/../.."
+    pwd
+)"
+
+cd "${REPO_ROOT}"
+
+PIXI_BIN="${PIXI_BIN:-pixi}"
+
+if ! command -v "${PIXI_BIN}" >/dev/null 2>&1; then
+    echo "ERROR: Pixi was not found in PATH."
+    echo "Install Pixi or set PIXI_BIN to its executable path."
+    exit 1
+fi
 
 echo "============================================================"
-echo "Week 5 production Parquet build"
+echo "Production Parquet build"
 echo "============================================================"
-echo "Hostname: $(hostname)"
-echo "Start:    $(date)"
-echo "Job ID:   ${SLURM_JOB_ID}"
-echo "PWD:      $(pwd)"
+echo "Hostname:   $(hostname)"
+echo "Start:      $(date)"
+echo "Job ID:     ${SLURM_JOB_ID:-not-set}"
+echo "Repository: ${REPO_ROOT}"
 echo
 
 mkdir -p \
     outputs/consolidated_production \
-    logs/production_parquets
+    logs/production_parquets \
+    logs/slurm
 
 /usr/bin/time -v \
-    classifier_standalone/.pixi/envs/default/bin/python \
-    classifier_standalone/scripts/build_production_parquets.py \
+    "${PIXI_BIN}" run python \
+    tools/data_conversion/build_production_parquets.py \
     --step-size 25000
 
 echo
