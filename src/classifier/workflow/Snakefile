@@ -79,7 +79,6 @@ rule train:
     resources:
         runtime = 240,
         mem_mb  = 32000,
-        gres    = "mps:25",
     threads: 4
     params:
         init                    = INIT,
@@ -144,7 +143,6 @@ rule evaluate:
     resources:
         runtime = 240,
         mem_mb  = 32000,
-        gres    = "mps:25",
     threads: 4
     params:
         init                    = INIT,

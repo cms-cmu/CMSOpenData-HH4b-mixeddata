@@ -28,3 +28,17 @@ The full path-by-path inventory is available in:
     docs/week7/week7_file_inventory.tsv
 
 Most Week 7 changes are file moves from the former `classifier_standalone/` directory into a classifier-centered top-level repository structure.
+
+## Final validation
+
+The refactored repository passed the following checks:
+
+- Python syntax compilation completed with exit status 0.
+- Six tracked shell and SLURM scripts passed `bash -n`.
+- Forty-two active YAML files parsed successfully.
+- No personal Falcon home paths remain in active reusable files.
+- The SvB smoke workflow built a four-job Snakemake DAG: `train`, `evaluate`, `analyze`, and `all`.
+- No hardcoded accelerator resources remain outside the site-specific `cluster/` directory.
+- Git whitespace validation passed.
+
+Python emitted non-fatal warnings for existing `\[` escape sequences in classifier help strings. These warnings did not prevent compilation.
