@@ -10,8 +10,15 @@ import uproot
 import yaml
 
 
-DEFAULT_SCRIPT_DIR = Path(__file__).resolve().parent
-MAP = SCRIPT_DIR / "dataset_files_map.yml"
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parents[1]
+
+DEFAULT_MAP = SCRIPT_DIR / "dataset_files_map.yml"
+DEFAULT_OUTPUT_DIR = (
+    REPO_ROOT
+    / "outputs"
+    / "consolidated_production"
+)
 
 COMPONENTS = (
     "picoAOD",

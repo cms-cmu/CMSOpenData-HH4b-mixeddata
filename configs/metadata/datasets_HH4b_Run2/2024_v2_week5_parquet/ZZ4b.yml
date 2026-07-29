@@ -4,7 +4,7 @@ ZZ4b:
     picoAOD:
       count: 18140347.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/ZZ4b_UL16_postVFP_consolidated.parquet
+      - outputs/consolidated_production/ZZ4b_UL16_postVFP_consolidated.parquet
       missing: {}
       saved_events: 734838
       sumw: 10382145.55479937
@@ -15,7 +15,7 @@ ZZ4b:
     picoAOD:
       count: 19351585.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/ZZ4b_UL16_preVFP_consolidated.parquet
+      - outputs/consolidated_production/ZZ4b_UL16_preVFP_consolidated.parquet
       missing: {}
       saved_events: 721570
       sumw: 11073789.57841955
@@ -26,7 +26,7 @@ ZZ4b:
     picoAOD:
       count: 38639348
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/ZZ4b_UL17_consolidated.parquet
+      - outputs/consolidated_production/ZZ4b_UL17_consolidated.parquet
       missing: {}
       saved_events: 2187811
       sumw: 22118696.50512064
@@ -39,7 +39,7 @@ ZZ4b:
     picoAOD:
       count: 39650048
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/ZZ4b_UL18_consolidated.parquet
+      - outputs/consolidated_production/ZZ4b_UL18_consolidated.parquet
       missing: {}
       saved_events: 2060875
       sumw: 22702525.975181084

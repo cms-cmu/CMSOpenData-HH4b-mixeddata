@@ -4,7 +4,7 @@ TTTo2L2Nu:
     picoAOD:
       count: 37505000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTTo2L2Nu_UL16_postVFP_consolidated.parquet
+      - outputs/consolidated_production/TTTo2L2Nu_UL16_postVFP_consolidated.parquet
       missing: {}
       saved_events: 118643
       sumw: 2704527536.2742004
@@ -15,7 +15,7 @@ TTTo2L2Nu:
     picoAOD:
       count: 43546000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTTo2L2Nu_UL16_preVFP_consolidated.parquet
+      - outputs/consolidated_production/TTTo2L2Nu_UL16_preVFP_consolidated.parquet
       missing: {}
       saved_events: 160026
       sumw: 3140127171.4748015
@@ -26,7 +26,7 @@ TTTo2L2Nu:
     picoAOD:
       count: 106724000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTTo2L2Nu_UL17_consolidated.parquet
+      - outputs/consolidated_production/TTTo2L2Nu_UL17_consolidated.parquet
       missing: {}
       saved_events: 522396
       sumw: 7695841311.017
@@ -37,7 +37,7 @@ TTTo2L2Nu:
     picoAOD:
       count: 145020000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTTo2L2Nu_UL18_consolidated.parquet
+      - outputs/consolidated_production/TTTo2L2Nu_UL18_consolidated.parquet
       missing: {}
       saved_events: 642799
       sumw: 10457566706.558405
@@ -89,7 +89,7 @@ TTToHadronic:
     picoAOD:
       count: 107067000
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTToHadronic_UL16_postVFP_consolidated.parquet
+      - outputs/consolidated_production/TTToHadronic_UL16_postVFP_consolidated.parquet
       missing: {}
       saved_events: 2143985
       sumw: 33608820216.924007
@@ -102,7 +102,7 @@ TTToHadronic:
     picoAOD:
       count: 97260000
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTToHadronic_UL16_preVFP_consolidated.parquet
+      - outputs/consolidated_production/TTToHadronic_UL16_preVFP_consolidated.parquet
       missing: {}
       saved_events: 1828250
       sumw: 30530922535.483994
@@ -115,7 +115,7 @@ TTToHadronic:
     picoAOD:
       count: 232999999
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTToHadronic_UL17_consolidated.parquet
+      - outputs/consolidated_production/TTToHadronic_UL17_consolidated.parquet
       missing: {}
       saved_events: 6382139
       sumw: 73140765879.47002
@@ -128,7 +128,7 @@ TTToHadronic:
       - root://cmseos.fnal.gov//eos/uscms/store/mc/RunIISummer20UL18NanoAODv9/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/270000/D4345960-08EE-0646-BE14-505C2B87CB7D.root
       count: 332886000
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTToHadronic_UL18_consolidated.parquet
+      - outputs/consolidated_production/TTToHadronic_UL18_consolidated.parquet
       missing:
         file_missing:
         - root://cmseos.fnal.gov//eos/uscms/store/mc/RunIISummer20UL18NanoAODv9/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/270000/D4345960-08EE-0646-BE14-505C2B87CB7D.root
@@ -184,7 +184,7 @@ TTToSemiLeptonic:
     picoAOD:
       count: 132178000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTToSemiLeptonic_UL16_postVFP_consolidated.parquet
+      - outputs/consolidated_production/TTToSemiLeptonic_UL16_postVFP_consolidated.parquet
       missing: {}
       saved_events: 1186340
       sumw: 39772305735.14003
@@ -195,7 +195,7 @@ TTToSemiLeptonic:
     picoAOD:
       count: 144722000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTToSemiLeptonic_UL16_preVFP_consolidated.parquet
+      - outputs/consolidated_production/TTToSemiLeptonic_UL16_preVFP_consolidated.parquet
       missing: {}
       saved_events: 1528624
       sumw: 43548253725.28401
@@ -206,7 +206,7 @@ TTToSemiLeptonic:
     picoAOD:
       count: 346052000
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTToSemiLeptonic_UL17_consolidated.parquet
+      - outputs/consolidated_production/TTToSemiLeptonic_UL17_consolidated.parquet
       missing: {}
       saved_events: 4798552
       sumw: 104129959042.42807
@@ -219,7 +219,7 @@ TTToSemiLeptonic:
     picoAOD:
       count: 474164000
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/TTToSemiLeptonic_UL18_consolidated.parquet
+      - outputs/consolidated_production/TTToSemiLeptonic_UL18_consolidated.parquet
       missing: {}
       saved_events: 5960647
       sumw: 142678965755.2601

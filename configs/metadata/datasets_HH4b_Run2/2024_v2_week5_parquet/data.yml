@@ -8,7 +8,7 @@ data:
       F:
         count: 4852270.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2016F_UL16_postVFP_consolidated.parquet
+        - outputs/consolidated_production/data2016F_UL16_postVFP_consolidated.parquet
         missing: {}
         saved_events: 45436
         total_events: 4852270
@@ -23,7 +23,7 @@ data:
       H:
         count: 64989678.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2016H_UL16_postVFP_consolidated.parquet
+        - outputs/consolidated_production/data2016H_UL16_postVFP_consolidated.parquet
         missing: {}
         saved_events: 827166
         total_events: 64989678
@@ -37,7 +37,7 @@ data:
       C:
         count: 30358567.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2016C_UL16_preVFP_consolidated.parquet
+        - outputs/consolidated_production/data2016C_UL16_preVFP_consolidated.parquet
         missing: {}
         saved_events: 237569
         sumw2_raw: 30358567
@@ -46,7 +46,7 @@ data:
       D:
         count: 56527008.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2016D_UL16_preVFP_consolidated.parquet
+        - outputs/consolidated_production/data2016D_UL16_preVFP_consolidated.parquet
         missing: {}
         saved_events: 392634
         sumw2_raw: 56527008
@@ -91,7 +91,7 @@ data:
         - root://redirector.t2.ucsd.edu:1095//store/data/Run2016E/BTagCSV/NANOAOD/HIPM_UL2016_MiniAODv2_NanoAODv9-v2/2430000/F9CC87A2-E34E-A04E-B468-71CA92E9D4EA.root
         count: 294202.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2016E_UL16_preVFP_consolidated.parquet
+        - outputs/consolidated_production/data2016E_UL16_preVFP_consolidated.parquet
         missing: {}
         saved_events: 353154
         sumw2_raw: 60415444
@@ -126,7 +126,7 @@ data:
       C:
         count: 34491540.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2017C_UL17_consolidated.parquet
+        - outputs/consolidated_production/data2017C_UL17_consolidated.parquet
         missing: {}
         saved_events: 444104
         sumw2_raw: 34491540
@@ -135,7 +135,7 @@ data:
       D:
         count: 7967055.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2017D_UL17_consolidated.parquet
+        - outputs/consolidated_production/data2017D_UL17_consolidated.parquet
         missing: {}
         saved_events: 210095
         sumw2_raw: 7967055
@@ -144,14 +144,14 @@ data:
       E:
         count: 17175226.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2017E_UL17_consolidated.parquet
+        - outputs/consolidated_production/data2017E_UL17_consolidated.parquet
         missing: {}
         saved_events: 487174
         total_events: 17175226
       F:
         count: 75677461.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2017F_UL17_consolidated.parquet
+        - outputs/consolidated_production/data2017F_UL17_consolidated.parquet
         missing: {}
         saved_events: 625024
         sumw2_raw: 75677461
@@ -181,7 +181,7 @@ data:
           passNoiseFilter: 171484635
           passPreSel_lowpt_forskim: 854388
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2018A_UL18_consolidated.parquet
+        - outputs/consolidated_production/data2018A_UL18_consolidated.parquet
         missing: {}
         saved_events: 854388
         sumw: 171484635
@@ -190,14 +190,14 @@ data:
       B:
         count: 78255208.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2018B_UL18_consolidated.parquet
+        - outputs/consolidated_production/data2018B_UL18_consolidated.parquet
         missing: {}
         saved_events: 388479
         total_events: 78255208
       C:
         count: 70027804.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2018C_UL18_consolidated.parquet
+        - outputs/consolidated_production/data2018C_UL18_consolidated.parquet
         missing: {}
         saved_events: 362082
         sumw2_raw: 70027804
@@ -206,7 +206,7 @@ data:
       D:
         count: 356976276.0
         files:
-        - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/data2018D_UL18_consolidated.parquet
+        - outputs/consolidated_production/data2018D_UL18_consolidated.parquet
         missing: {}
         saved_events: 1661807
         total_events: 356976276

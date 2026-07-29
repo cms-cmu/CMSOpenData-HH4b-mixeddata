@@ -2,21 +2,26 @@ from pathlib import Path
 import shutil
 import yaml
 
-repo = Path.cwd()
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parents[1]
 
 src = (
-    repo
+    REPO_ROOT
     / "configs/metadata/"
     "datasets_HH4b_Run2/2024_v2_cmu"
 )
 
 dst = (
-    repo
+    REPO_ROOT
     / "configs/metadata/"
     "datasets_HH4b_Run2/2024_v2_week5_parquet"
 )
 
-production = repo / "outputs/consolidated_production"
+PRODUCTION_RELATIVE = (
+    Path("outputs")
+    / "consolidated_production"
+)
+production = REPO_ROOT / PRODUCTION_RELATIVE
 
 dst.mkdir(parents=True, exist_ok=True)
 
@@ -32,18 +37,27 @@ for name in metadata_files:
     shutil.copy2(src / name, dst / name)
 
 
-def parquet_path(dataset: str) -> str:
-    return str(
-        production
+def parquet_relative_path(dataset: str) -> Path:
+    return (
+        PRODUCTION_RELATIVE
         / f"{dataset}_consolidated.parquet"
     )
 
 
-def set_if_available(pico: dict, dataset: str) -> bool:
-    path = production / f"{dataset}_consolidated.parquet"
+def parquet_path(dataset: str) -> str:
+    return parquet_relative_path(dataset).as_posix()
 
-    if path.exists():
-        pico["files"] = [str(path)]
+
+def parquet_exists(dataset: str) -> bool:
+    return (
+        REPO_ROOT
+        / parquet_relative_path(dataset)
+    ).exists()
+
+
+def set_if_available(pico: dict, dataset: str) -> bool:
+    if parquet_exists(dataset):
+        pico["files"] = [parquet_path(dataset)]
         return True
 
     pico["files"] = []
@@ -126,7 +140,7 @@ for process in tt_processes:
         pico["files"] = [expected]
         tt_expected.append(dataset)
 
-        if Path(expected).exists():
+        if parquet_exists(dataset):
             tt_ready.append(dataset)
 
 with path.open("w") as handle:

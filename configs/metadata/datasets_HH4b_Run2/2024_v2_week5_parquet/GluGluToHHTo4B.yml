@@ -43,7 +43,7 @@ GluGluToHHTo4B_cHHH1:
     picoAOD:
       count: 540000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/GluGluToHHTo4B_cHHH1_UL16_postVFP_consolidated.parquet
+      - outputs/consolidated_production/GluGluToHHTo4B_cHHH1_UL16_postVFP_consolidated.parquet
       saved_events: 101284
       sumw: 14442.908792499999
       sumw2: 1410.4669680334337
@@ -53,7 +53,7 @@ GluGluToHHTo4B_cHHH1:
     picoAOD:
       count: 460000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/GluGluToHHTo4B_cHHH1_UL16_preVFP_consolidated.parquet
+      - outputs/consolidated_production/GluGluToHHTo4B_cHHH1_UL16_preVFP_consolidated.parquet
       saved_events: 96689
       sumw: 12347.151023600001
       sumw2: 898.1264641586223
@@ -63,7 +63,7 @@ GluGluToHHTo4B_cHHH1:
     picoAOD:
       count: 999000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/GluGluToHHTo4B_cHHH1_UL17_consolidated.parquet
+      - outputs/consolidated_production/GluGluToHHTo4B_cHHH1_UL17_consolidated.parquet
       saved_events: 247548
       sumw: 34168.658367800024
       sumw2: 54866303.20358257
@@ -73,7 +73,7 @@ GluGluToHHTo4B_cHHH1:
     picoAOD:
       count: 1000000.0
       files:
-      - /home/export/fadom-CMU/pursue2026/CMSOpenData-HH4b-mixeddata/outputs/consolidated_production/GluGluToHHTo4B_cHHH1_UL18_consolidated.parquet
+      - outputs/consolidated_production/GluGluToHHTo4B_cHHH1_UL18_consolidated.parquet
       missing: {}
       saved_events: 238233
       sumw: 28210.3267947
