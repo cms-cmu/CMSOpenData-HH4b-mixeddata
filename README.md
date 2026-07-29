@@ -1,130 +1,228 @@
-# HH4b Classifier Standalone
+# HH4b HCR Classifier
 
-Standalone repository for the HH4b SvB classifier training and evaluation workflow.
+A standalone and reproducible repository for training and evaluating the Hierarchical Combinatorial Residual classifier used in the CMS HH4b analysis.
 
-This repo separates the classifier workflow from the larger `barista` and `coffea4bees` analysis repositories. The goal is to run the classifier from a clean, independent repository and support a small training/evaluation smoke test using ROOT and Parquet friend inputs.
+The project isolates the classifier from the larger `barista` and `coffea4bees` analysis frameworks. It provides portable Pixi environments, standalone SvB workflows, and optional ROOT-to-Parquet preparation utilities.
 
-## Week 4 Goal
+## Current support
 
-The Week 4 goal was to isolate the HH4b/SvB classifier code from the main analysis-specific repositories and prove that the workflow can run independently.
+### SvB
 
-The mentor request was:
+The repository contains tested standalone SvB workflows for:
 
-1. Do not run the full production job.
-2. Run a small test using 2 files.
-3. Convert ROOT friend trees into Parquet files.
-4. Modify the code to read Parquet files instead of ROOT friend files.
-5. Test again with a few events.
+- CPU smoke-test training
+- GPU full training
+- CPU inference and evaluation
+- Three-fold model handling
+- Consolidated Parquet input reading
+- ROOT friend prediction output
 
-## What This Repo Does
+The full SvB training workflow has completed successfully on consolidated Parquet inputs. The current evaluation configuration has been validated with a bounded HH-only test.
 
-This repo currently supports:
+### FvT
 
-- Standalone SvB training smoke test
-- Standalone SvB evaluation smoke test
-- ROOT friend tree to Parquet conversion
-- Parquet friend metadata generation
-- Evaluation using Parquet friend inputs
-- Writing ROOT SvB friend prediction outputs
+Reusable FvT dataset and model components are included:
 
-## Week 4 Accomplishments
+- `src/classifier/config/dataset/HCR/FvT.py`
+- `src/classifier/config/model/HCR/FvT/baseline.py`
 
-### 1. Created a standalone classifier repo
+The components import successfully and define FvT training, evaluation, loss, ROC, and output behavior.
 
-The classifier workflow now runs from:
+A complete standalone FvT Snakemake workflow has not yet been assembled or validated.
 
-`CMSOpenData-HH4b-mixeddata/`
+> Current scope: tested end-to-end SvB workflows with reusable FvT components.
 
-GitHub repo:
+## Repository layout
 
-`https://github.com/IngFrancis/hh4b-classifier-standalone`
+- `src/` — classifier, data-loading, model, and workflow source code
+- `configs/` — workflow, metadata, and weight configurations
+- `tools/data_conversion/` — ROOT merging and ROOT-to-Parquet utilities
+- `tools/legacy_jet_extraction/` — earlier jet-extraction scripts retained for reference
+- `cluster/falcon/` — Falcon-specific submission files
+- `cluster/run_container` — optional multi-site container wrapper
+- `docs/` — project history, validation notes, and supporting documentation
+- `outputs/` — generated models, predictions, logs, and converted datasets
 
-### 2. Built standalone CMU metadata
+The classifier is the repository's main focus. Data conversion, legacy extraction, historical documentation, and cluster-specific files are separated from the core classifier source.
 
-Standalone metadata was generated under:
+## Environment setup
 
-- `configs/metadata/datasets_HH4b_Run2/2024_v2_cmu/`
-- `configs/metadata/datasets_HH4b_Run2/2024_v2_cmu_eval2/`
+The repository uses Pixi for reproducible dependency management.
 
-Important files include:
+The `default` environment provides CPU-only PyTorch and supports data conversion, metadata generation, workflow dry-runs, smoke training, and CPU evaluation.
 
-- `classifier_inputs_week3_cmu.json`
-- `classifier_inputs_week3_cmu_parquet.json`
-- `fvt_inputs_week3_cmu.json`
-- `fvt_inputs_week3_cmu_parquet.json`
+Install the CPU environment with:
 
-### 3. Updated the SvB workflow configs
+    pixi install --environment default
 
-Updated files:
+The `gpu` environment targets CUDA 12.9 and is intended for full SvB training on a CUDA-capable compute node.
 
-- `configs/workflows/SvB/train.yml`
-- `configs/workflows/SvB/evaluate.yml`
-- `configs/workflows/SvB/workflow_config.yml`
+Install the GPU environment with:
 
-### 4. Verified standalone training
+    pixi install --environment gpu
 
-The standalone training smoke test completed and produced:
+The CPU and GPU dependencies are solved separately, so CPU-only systems do not require CUDA packages.
 
-- `outputs/SvB_standalone_test/train.done`
-- `outputs/SvB_standalone_test/classifier/result.json`
-- `outputs/SvB_standalone_test/classifier/states.pkl`
-- model `.pkl` files
+## Input data
 
-### 5. Converted ROOT friend trees to Parquet
+The standalone workflows use consolidated Parquet datasets stored under:
 
-Scripts added:
+    outputs/consolidated_production/
 
-- `scripts/convert_friend_root_to_parquet.py`
-- `scripts/check_parquet_friends.py`
-- `scripts/build_parquet_friend_metadata.py`
+Each consolidated dataset combines synchronized information from:
 
-Parquet friend inputs were generated for `HCR_input` and `FvT_weight` using 100 events per file.
+- `picoAOD`
+- `HCR_input`
+- `JCM_weight`
+- `FvT_weight`
+- `SvB_MA`
 
-### 6. Added Parquet support
+The merger preserves all `Jet_*` branches and validates the required classifier and reference branches.
 
-The reader was patched so `.parquet` friend paths can be read with `ak.from_parquet`.
+The active Parquet metadata is stored under:
 
-Main file:
+    configs/metadata/datasets_HH4b_Run2/2024_v2_week5_parquet/
 
-- `src/data_formats/root/io.py`
+Metadata entries use repository-relative paths, for example:
 
-### 7. Fixed standalone smoke-test blockers
+    files:
+      - outputs/consolidated_production/data2016F_UL16_postVFP_consolidated.parquet
 
-The evaluation path originally stalled during the standalone test. The fixes included:
+## Data conversion
 
-- Avoiding remote ROOT metadata fetching for tiny smoke chunks
-- Avoiding `ProcessPoolExecutor` when evaluating with one evaluator
-- Adding Parquet friend input reading
-- Adding runtime `pandas` support for Parquet-to-Pandas conversion
-- Handling missing `p_ttbar` in tiny smoke-test model outputs
+Data-conversion utilities are isolated under:
 
-Important patched files:
+    tools/data_conversion/
 
-- `src/classifier/config/dataset/_root.py`
-- `src/classifier/config/main/evaluate.py`
-- `src/classifier/config/model/HCR/SvB/ggF/all_kl.py`
-- `src/data_formats/root/io.py`
+They are optional preprocessing tools and are separate from the core classifier source.
 
-### 8. Completed Parquet evaluation smoke test
+Inspect the production dataset status with:
 
-Final test setup:
+    pixi run --environment default conversion-dry-run
 
-- 2 CMU input files
-- 100 events per file
+The current production map contains:
 
-Input files:
+- 39 mapped datasets
+- 38 eligible datasets
+- 1 blocked dataset: `data2016G_UL16_postVFP`
 
-- `data2016F/picoAOD.root`
-- `data2016G/picoAOD.root`
+Build all eligible consolidated ROOT and Parquet datasets with:
 
-Successful result:
+    pixi run --environment default python \
+      tools/data_conversion/build_production_parquets.py
 
-- `exit_code=0`
-- `outputs/SvB_standalone_test/evaluate.done`
+Merge one dataset with:
 
-The evaluation wrote two ROOT friend prediction chunks, each with 100 entries.
+    pixi run --environment default python \
+      tools/data_conversion/consolidate_dataset.py \
+      GluGluToHHTo4B_cHHH1_UL18
 
-Output branches included:
+Convert one consolidated ROOT file to Parquet with:
+
+    pixi run --environment default python \
+      tools/data_conversion/convert_dataset_to_parquet.py \
+      outputs/consolidated_production/example_consolidated.root
+
+Regenerate the portable Week 5 metadata with:
+
+    pixi run --environment default python \
+      tools/data_conversion/build_week5_parquet_metadata.py
+
+## SvB smoke workflow
+
+The smoke workflow uses CPU execution, bounded input chunks, one input file per dataset, and one training epoch.
+
+Preview the workflow with:
+
+    pixi run --environment default snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_smoke/workflow_config.yml \
+      --cores 1 \
+      --dry-run
+
+Run smoke training with:
+
+    pixi run --environment default snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_smoke/workflow_config.yml \
+      --cores 1 \
+      outputs/SvB_week5_parquet_smoke/train.done
+
+Run smoke evaluation with:
+
+    pixi run --environment default snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_smoke/workflow_config.yml \
+      --cores 1 \
+      outputs/SvB_week5_parquet_smoke/evaluate.done
+
+## Full SvB training
+
+The full workflow uses:
+
+- CUDA training
+- 20 fixed-step epochs
+- One fine-tuning epoch
+- Three-fold model handling
+- Consolidated Parquet signal and background inputs
+
+Preview the full workflow from a CUDA-capable compute node with:
+
+    pixi run --environment gpu snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_full/workflow_config.yml \
+      --cores 1 \
+      --dry-run
+
+Run full training with:
+
+    pixi run --environment gpu snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_full/workflow_config.yml \
+      --cores 1 \
+      outputs/SvB_week5_parquet_full/train.done
+
+The full training configuration is located at:
+
+    configs/workflows/SvB_week5_parquet_full/train.yml
+
+## Inference and evaluation
+
+The validated evaluation configuration uses CPU execution and writes merged SvB friend predictions.
+
+Run evaluation with:
+
+    pixi run --environment default snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_full/workflow_config.yml \
+      --cores 1 \
+      outputs/SvB_week5_parquet_full/evaluate.done
+
+The current full-workflow evaluation is intentionally bounded to:
+
+- One HH input file
+- Two input chunks
+- 100 evaluation events
+
+This validates the complete inference and friend-output path without claiming a full production-scale evaluation.
+
+## Outputs
+
+Training artifacts are written under:
+
+    outputs/<workflow-label>/classifier/
+
+Typical model files include:
+
+- `result.json`
+- `states.pkl`
+- Model `.pkl` files
+
+Evaluation friend outputs are written under:
+
+    outputs/<workflow-label>/friend/
+
+Prediction branches include:
 
 - `q_1234`
 - `q_1324`
@@ -137,26 +235,54 @@ Output branches included:
 - `p_ggF`
 - `p_sig`
 
-## Verified Smoke-Test Path
+Workflow completion flags and logs include:
 
-ROOT friend trees were converted to Parquet friend files, the Parquet metadata was generated, the standalone Snakemake evaluation ran successfully, and ROOT SvB friend prediction chunks were written.
+- `train.done`
+- `train.log`
+- `evaluate.done`
+- `evaluate.log`
 
-## What Is Not Claimed Yet
+## Cluster execution
 
-This is a smoke-test implementation, not a full production-scale run.
+The core classifier and data-conversion code use repository-relative paths and do not depend on Falcon-specific locations.
 
-Not yet complete:
+Optional cluster integration is isolated under:
 
-- Full production training over all files
-- Full production evaluation over all files
-- Removing or replacing `pyml.py`
-- Full packaging as a polished long-term standalone library
-- Large-scale benchmarking and physics validation
+    cluster/
 
-## Latest Verified Commit
+Falcon-specific submission files are stored under:
 
-`e187ab4 Add standalone Parquet SvB evaluation smoke test`
+    cluster/falcon/
 
-## Summary
+The legacy multi-site container wrapper remains available at:
 
-The Week 4 milestone has been completed at smoke-test level. The classifier workflow is isolated in a standalone repository, training and evaluation work on a small 2-file test, ROOT friend trees were converted to Parquet, the code was modified to read Parquet inputs, and the few-event Parquet evaluation completes successfully.
+    cluster/run_container
+
+Local Pixi execution is the portable default.
+
+## Validation completed
+
+The repository has been checked through:
+
+- Python and shell syntax validation
+- CPU PyTorch environment testing
+- CUDA 12.9 lock inspection
+- FvT component import testing
+- Portable metadata validation
+- Conversion command-interface testing
+- Production conversion dry-run
+- Jet-branch preservation checks
+- SvB smoke training
+- SvB full training
+- Bounded SvB evaluation
+
+## Current limitations
+
+- A complete standalone FvT workflow has not been assembled or validated.
+- `data2016G_UL16_postVFP` remains blocked in the production conversion map.
+- Full production evaluation over every dataset has not yet been run.
+- Cluster wrappers are retained as optional compatibility tools.
+
+## Repository
+
+    https://github.com/cms-cmu/CMSOpenData-HH4b-mixeddata
