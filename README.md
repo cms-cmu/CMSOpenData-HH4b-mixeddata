@@ -1,236 +1,288 @@
+# HH4b HCR Classifier
 
-# CMSOpenData-HH4b-mixeddata
+A standalone and reproducible repository for training and evaluating the Hierarchical Combinatorial Residual classifier used in the CMS HH4b analysis.
 
-## Overview
+The project isolates the classifier from the larger `barista` and `coffea4bees` analysis frameworks. It provides portable Pixi environments, standalone SvB workflows, and optional ROOT-to-Parquet preparation utilities.
 
-This repository contains early workflow development for preparing and validating Jet-only derived datasets from CMS HH4b mixeddata ROOT files.
+## Current support
 
-The current focus is to extract Jet-related variables from CMS Run 2 mixeddata samples for 2016, 2017, and 2018. The extracted Jet variables are saved as chunked Parquet files so they can be used more easily in downstream Python analysis workflows.
+### SvB
 
-This work supports the broader goal of preparing a public, documented, and reproducible mixeddata benchmark for CMS HH4b background modeling studies.
+The repository contains tested standalone SvB workflows for:
 
-## Current Workflow
+- CPU smoke-test training
+- GPU full training
+- CPU inference and evaluation
+- Three-fold model handling
+- Consolidated Parquet input reading
+- ROOT friend prediction output
 
-The workflow currently does the following:
+The full SvB training workflow has completed successfully on consolidated Parquet inputs. The current evaluation configuration has been validated with a bounded HH-only test.
 
-1. Opens CMS HH4b mixeddata ROOT files with `uproot`.
-2. Inspects the `Events` TTree.
-3. Finds Jet-related branches automatically.
-4. Extracts:
+### FvT
 
-   * `nJet`
-   * all branches starting with `Jet_`
-5. Saves Jet-only data as chunked Parquet files.
-6. Validates that the Parquet files can be read back correctly.
-7. Confirms that event counts match the original ROOT files.
+Reusable FvT dataset and model components are included:
 
-## Repository Structure
+- `src/classifier/config/dataset/HCR/FvT.py`
+- `src/classifier/config/model/HCR/FvT/baseline.py`
 
-```text
-metadata/
-    branches_mixed2016.txt
-    branches_mixed2017.txt
-    branches_mixed2018.txt
-    jet_branches_mixed2016.txt
-    jet_branches_mixed2017.txt
-    jet_branches_mixed2018.txt
-    jet_branches_mixed2016_with_types.txt
-    jet_branches_mixed2017_with_types.txt
-    jet_branches_mixed2018_with_types.txt
+The components import successfully and define FvT training, evaluation, loss, ROC, and output behavior.
 
-notes/
-    week1_setup.md
-    jet_extraction_summary.md
+A complete standalone FvT Snakemake workflow has not yet been assembled or validated.
 
-scripts/
-    extract_jets.py
-    extract_jets_2016.py
-    extract_jets_2016_full.py
-    validate_jet_outputs.py
+> Current scope: tested end-to-end SvB workflows with reusable FvT components.
 
-outputs/
-    jets/
-        2016/
-        2017/
-        2018/
-```
+## Repository layout
 
-The `outputs/` directory contains generated Parquet files. These files are not committed to GitHub because they are generated data products and are ignored by `.gitignore`.
+- `src/` — classifier, data-loading, model, and workflow source code
+- `configs/` — workflow, metadata, and weight configurations
+- `tools/data_conversion/` — ROOT merging and ROOT-to-Parquet utilities
+- `tools/legacy_jet_extraction/` — earlier jet-extraction scripts retained for reference
+- `cluster/falcon/` — Falcon-specific submission files
+- `cluster/run_container` — optional multi-site container wrapper
+- `docs/` — project history, validation notes, and supporting documentation
+- `outputs/` — generated models, predictions, logs, and converted datasets
 
-## Input ROOT Files
+The classifier is the repository's main focus. Data conversion, legacy extraction, historical documentation, and cluster-specific files are separated from the core classifier source.
 
-The current workflow uses the following CMS HH4b mixeddata ROOT files:
+## Environment setup
 
-| Year | Input ROOT File                                                                                                                |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 2016 | `root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/mixed2016_3bDvTMix4bDvT_v0/picoAOD_3bDvTMix4bDvT_4b_wJCM_v0_newSBDef.root` |
-| 2017 | `root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/mixed2017_3bDvTMix4bDvT_v0/picoAOD_3bDvTMix4bDvT_4b_wJCM_v0_newSBDef.root` |
-| 2018 | `root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/mixed2018_3bDvTMix4bDvT_v0/picoAOD_3bDvTMix4bDvT_4b_wJCM_v0_newSBDef.root` |
+The repository uses Pixi for reproducible dependency management.
 
-## Environment Setup
+The `default` environment provides CPU-only PyTorch and supports data conversion, metadata generation, workflow dry-runs, smoke training, and CPU evaluation.
 
-Create and activate a Python virtual environment:
+Install the CPU environment with:
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
+    pixi install --environment default
 
-Install required Python packages:
+The `gpu` environment targets CUDA 12.9 and is intended for full SvB training on a CUDA-capable compute node.
 
-```bash
-python -m pip install --upgrade pip
-python -m pip install uproot awkward numpy pyarrow coffea xrootd fsspec-xrootd
-```
+Install the GPU environment with:
 
-## Running on the Cluster
+    pixi install --environment gpu
 
-Light tasks such as editing files, checking Git status, and writing notes can be done on the Falcon head node.
+The CPU and GPU dependencies are solved separately, so CPU-only systems do not require CUDA packages.
 
-Data processing should be done on a Slurm compute node. Start an interactive compute session with:
+## Input data
 
-```bash
-srun --mem=4G --time=04:00:00 --pty bash
-```
+The standalone workflows use consolidated Parquet datasets stored under:
 
-Then return to the project directory and activate the environment:
+    outputs/consolidated_production/
 
-```bash
-cd ~/pursue2026/CMSOpenData-HH4b-mixeddata
-source .venv/bin/activate
-```
+Each consolidated dataset combines synchronized information from:
 
-## Jet Extraction
+- `picoAOD`
+- `HCR_input`
+- `JCM_weight`
+- `FvT_weight`
+- `SvB_MA`
 
-The main scalable extraction script is:
+The merger preserves all `Jet_*` branches and validates the required classifier and reference branches.
 
-```text
-scripts/extract_jets.py
-```
+The active Parquet metadata is stored under:
 
-Run the extraction for a specific year:
+    configs/metadata/datasets_HH4b_Run2/2024_v2_week5_parquet/
 
-```bash
-python scripts/extract_jets.py --year 2016
-python scripts/extract_jets.py --year 2017
-python scripts/extract_jets.py --year 2018
-```
+Metadata entries use repository-relative paths, for example:
 
-For a small test run, use `--max-parts`:
+    files:
+      - outputs/consolidated_production/data2016F_UL16_postVFP_consolidated.parquet
 
-```bash
-python scripts/extract_jets.py --year 2016 --max-parts 1
-```
+## Data conversion
 
-This processes only the first chunk and is useful for testing.
+Data-conversion utilities are isolated under:
 
-## Branch Selection
+    tools/data_conversion/
 
-The extraction keeps:
+They are optional preprocessing tools and are separate from the core classifier source.
 
-```text
-nJet
-all branches starting with Jet_
-```
+Inspect the production dataset status with:
 
-This produced 38 Jet-related branches for each year.
+    pixi run --environment default conversion-dry-run
 
-The Jet branch lists are saved in:
+The current production map contains:
 
-```text
-metadata/jet_branches_mixed2016.txt
-metadata/jet_branches_mixed2017.txt
-metadata/jet_branches_mixed2018.txt
-```
+- 39 mapped datasets
+- 38 eligible datasets
+- 1 blocked dataset: `data2016G_UL16_postVFP`
 
-The Jet branch lists for 2016, 2017, and 2018 were compared with `diff`, and no differences were found.
+Build all eligible consolidated ROOT and Parquet datasets with:
 
-## Extraction Results
+    pixi run --environment default python \
+      tools/data_conversion/build_production_parquets.py
 
-| Year | Events in ROOT File | Jet Branches Extracted | Parquet Parts Written | Validation |
-| ---- | ------------------: | ---------------------: | --------------------: | ---------- |
-| 2016 |             115,764 |                     38 |                     3 | Passed     |
-| 2017 |             111,951 |                     38 |                     3 | Passed     |
-| 2018 |             162,896 |                     38 |                     4 | Passed     |
+Merge one dataset with:
 
-Total extracted events across all three years:
+    pixi run --environment default python \
+      tools/data_conversion/consolidate_dataset.py \
+      GluGluToHHTo4B_cHHH1_UL18
 
-```text
-390,611
-```
+Convert one consolidated ROOT file to Parquet with:
 
-## Output Files
+    pixi run --environment default python \
+      tools/data_conversion/convert_dataset_to_parquet.py \
+      outputs/consolidated_production/example_consolidated.root
 
-The Jet-only Parquet files are saved locally under:
+Regenerate the portable Week 5 metadata with:
 
-```text
-outputs/jets/2016/
-outputs/jets/2017/
-outputs/jets/2018/
-```
+    pixi run --environment default python \
+      tools/data_conversion/build_week5_parquet_metadata.py
 
-Example output files:
+## SvB smoke workflow
 
-```text
-outputs/jets/2016/jets_2016_part0000.parquet
-outputs/jets/2017/jets_2017_part0000.parquet
-outputs/jets/2018/jets_2018_part0000.parquet
-```
+The smoke workflow uses CPU execution, bounded input chunks, one input file per dataset, and one training epoch.
 
-## Validation
+Preview the workflow with:
 
-The validation script is:
+    pixi run --environment default snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_smoke/workflow_config.yml \
+      --cores 1 \
+      --dry-run
 
-```text
-scripts/validate_jet_outputs.py
-```
+Run smoke training with:
 
-Run:
+    pixi run --environment default snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_smoke/workflow_config.yml \
+      --cores 1 \
+      outputs/SvB_week5_parquet_smoke/train.done
 
-```bash
-python scripts/validate_jet_outputs.py
-```
+Run smoke evaluation with:
 
-The script checks that:
+    pixi run --environment default snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_smoke/workflow_config.yml \
+      --cores 1 \
+      outputs/SvB_week5_parquet_smoke/evaluate.done
 
-1. Parquet files exist for each year.
-2. Each Parquet file can be read with Awkward Array.
-3. Each file has 38 Jet fields.
-4. The total number of events read from Parquet matches the original ROOT file event count.
+## Full SvB training
 
-Current validation result:
+The full workflow uses:
 
-```text
-All Jet Parquet outputs passed validation.
-```
+- CUDA training
+- 20 fixed-step epochs
+- One fine-tuning epoch
+- Three-fold model handling
+- Consolidated Parquet signal and background inputs
 
-## Jet Summary Plots
+Preview the full workflow from a CUDA-capable compute node with:
 
-Quick validation plots were created from the Jet-only Parquet outputs using:
+    pixi run --environment gpu snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_full/workflow_config.yml \
+      --cores 1 \
+      --dry-run
 
-```bash
-python scripts/plot_jet_summaries.py
+Run full training with:
 
+    pixi run --environment gpu snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_full/workflow_config.yml \
+      --cores 1 \
+      outputs/SvB_week5_parquet_full/train.done
 
-## Current Status
+The full training configuration is located at:
 
-Completed so far:
+    configs/workflows/SvB_week5_parquet_full/train.yml
 
-* Set up repository structure.
-* Created Python environment.
-* Opened and inspected the 2016 ROOT file.
-* Saved branch metadata for 2016, 2017, and 2018.
-* Built a scalable Jet extraction script.
-* Extracted Jet-only Parquet files for 2016, 2017, and 2018.
-* Validated all Jet-only Parquet outputs.
-* Documented the extraction workflow and results.
+## Inference and evaluation
 
-## Next Steps
+The validated evaluation configuration uses CPU execution and writes merged SvB friend predictions.
 
-Potential next steps include:
+Run evaluation with:
 
-1. Add more dataset files beyond the first mixeddata file per year.
-2. Generalize the workflow to handle multiple files per year.
-3. Add summary plots for Jet variables such as `Jet_pt`, `Jet_eta`, and `nJet`.
-4. Compare distributions across 2016, 2017, and 2018.
-5. Prepare additional documentation for public release and reproducibility.
+    pixi run --environment default snakemake \
+      --snakefile src/classifier/workflow/Snakefile \
+      --configfile configs/workflows/SvB_week5_parquet_full/workflow_config.yml \
+      --cores 1 \
+      outputs/SvB_week5_parquet_full/evaluate.done
+
+The current full-workflow evaluation is intentionally bounded to:
+
+- One HH input file
+- Two input chunks
+- 100 evaluation events
+
+This validates the complete inference and friend-output path without claiming a full production-scale evaluation.
+
+## Outputs
+
+Training artifacts are written under:
+
+    outputs/<workflow-label>/classifier/
+
+Typical model files include:
+
+- `result.json`
+- `states.pkl`
+- Model `.pkl` files
+
+Evaluation friend outputs are written under:
+
+    outputs/<workflow-label>/friend/
+
+Prediction branches include:
+
+- `q_1234`
+- `q_1324`
+- `q_1423`
+- `p_multijet`
+- `p_ttbar`
+- `p_bkg`
+- `p_ZZ`
+- `p_ZH`
+- `p_ggF`
+- `p_sig`
+
+Workflow completion flags and logs include:
+
+- `train.done`
+- `train.log`
+- `evaluate.done`
+- `evaluate.log`
+
+## Cluster execution
+
+The core classifier and data-conversion code use repository-relative paths and do not depend on Falcon-specific locations.
+
+Optional cluster integration is isolated under:
+
+    cluster/
+
+Falcon-specific submission files are stored under:
+
+    cluster/falcon/
+
+The legacy multi-site container wrapper remains available at:
+
+    cluster/run_container
+
+Local Pixi execution is the portable default.
+
+## Validation completed
+
+The repository has been checked through:
+
+- Python and shell syntax validation
+- CPU PyTorch environment testing
+- CUDA 12.9 lock inspection
+- FvT component import testing
+- Portable metadata validation
+- Conversion command-interface testing
+- Production conversion dry-run
+- Jet-branch preservation checks
+- SvB smoke training
+- SvB full training
+- Bounded SvB evaluation
+
+## Current limitations
+
+- A complete standalone FvT workflow has not been assembled or validated.
+- `data2016G_UL16_postVFP` remains blocked in the production conversion map.
+- Full production evaluation over every dataset has not yet been run.
+- Cluster wrappers are retained as optional compatibility tools.
+
+## Repository
+
+    https://github.com/cms-cmu/CMSOpenData-HH4b-mixeddata

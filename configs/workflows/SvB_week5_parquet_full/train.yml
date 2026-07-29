@@ -1,0 +1,44 @@
+# Week 5 full consolidated-Parquet GPU training
+
+main:
+  module: train
+  option:
+    - --max-loaders 1
+    - --max-trainers 1
+    - --device cuda
+
+model:
+  - module: HCR.SvB.ggF.baseline.Train
+    option:
+      - --roc-signal-by-category
+      - --kfold-seed SvB random
+      - --kfold-seed-offsets 0
+      - --training FixedStep
+      - epoch: 20
+        bs_init: 1024
+      - --finetuning FinetuneStep
+      - epoch: 1
+        bs_init: 16384
+
+dataset:
+  - module: HCR.SvB.Background
+    option:
+      - --metadata configs/metadata/datasets_HH4b_Run2/2024_v2_week5_parquet/
+      - --mc-processes ttbar
+      - --max-workers 1
+      - --train-chunksize 5000
+      - --norm 3
+      - --JCM-weight "" configs/weights/JCM/jetCombinatoricModel_SB_2024_v2.yml@@JCM_weights
+
+  - module: HCR.SvB.Signal
+    option:
+      - --metadata configs/metadata/datasets_HH4b_Run2/2024_v2_week5_parquet/
+      - --mc-processes ggF ZH ZZ
+      - --ggf-load-kl 1
+      - --max-workers 1
+      - --train-chunksize 5000
+
+setting:
+  - module: IO
+    option:
+      - output: "{model}"

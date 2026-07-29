@@ -1,0 +1,1439 @@
+{
+  "HCR_input": {
+    "name": "HCR_input",
+    "branches": [
+      "xbW",
+      "ZHSR",
+      "SB",
+      "ZZSR",
+      "nSelJets",
+      "weight",
+      "xW",
+      "fourTag",
+      "SR",
+      "HHSR",
+      "threeTag",
+      "passHLT",
+      "nNotCanJet",
+      "NotCanJet_phi",
+      "NotCanJet_isSelJet",
+      "NotCanJet_mass",
+      "NotCanJet_pt",
+      "NotCanJet_eta",
+      "nCanJet",
+      "CanJet_phi",
+      "CanJet_pt",
+      "CanJet_eta",
+      "CanJet_mass"
+    ],
+    "data": [
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_postVFP/picoAOD.root",
+          "name": "Events",
+          "uuid": "35726436-db37-11ef-a16c-0025905a48e4"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 88364,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_postVFP/HCR_input.root",
+              "name": "Events",
+              "uuid": "a13c4aa2-6e4c-11f1-8190-0cc47a4d75ec",
+              "num_entries": 88364,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_preVFP/picoAOD.root",
+          "name": "Events",
+          "uuid": "34b9d9ac-db37-11ef-9dd0-0025905b85fc"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 84852,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_preVFP/HCR_input.root",
+              "name": "Events",
+              "uuid": "67c40c32-6e48-11f1-8aa8-0cc47a7ab7a0",
+              "num_entries": 84852,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "36231740-db37-11ef-ac46-0025905b858c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "6fd22ca6-6e48-11f1-afdd-0cc47a4c8e46",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "27629a8c-db37-11ef-a2a4-0025905a6060"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "6fd1cae0-6e48-11f1-b3f9-0cc47a4c8e2a",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "28c24a94-db37-11ef-8580-0025905b85d0"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "4fcb797e-6e4a-11f1-ae8e-0cc47a745294",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "35f03398-db37-11ef-a728-0025905a6090"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 99653,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "4fcb6574-6e4a-11f1-aa1f-0cc47a74524e",
+              "num_entries": 99653,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "01aef53e-8663-11ef-a0ce-0025905b856e"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "a0b890d8-6e4a-11f1-acd1-0cc47a4c8ece",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "fcc455be-8662-11ef-93e0-0025905a613c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 62808,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "a2a8af68-6e4a-11f1-a05e-0cc47a4c8e96",
+              "num_entries": 62808,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "d592eb8e-865f-11ef-84f4-0cc47a4c8e1c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "62b7184c-6e48-11f1-b3e8-0cc47a4d7632",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "43426714-865f-11ef-84f4-0cc47a4c8e1c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 75900,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "62b7bbb2-6e48-11f1-800e-0cc47a4d7644",
+              "num_entries": 75900,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "370c507c-866e-11ef-b4fb-0cc47a4d764a"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "7db78214-6e4b-11f1-bc5a-0cc47a4c8e20",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "1804623c-866e-11ef-afdd-0cc47a4c8e8a"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "80724b60-6e4b-11f1-bf32-0cc47a4c8e28",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "b1e13b2c-fe8d-11ef-b0e3-0025905a6126"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "9eb0df56-6e4b-11f1-935f-0cc47a4d7694",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "9c3ea64c-fe8d-11ef-90a2-0025905a6136"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "9eb0ce6c-6e4b-11f1-8595-0cc47a4d7694",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "9b834010-63fe-11f0-9255-0cc47a4d7600"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "9ea2c222-6e4b-11f1-a2de-0cc47a4d765a",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "9b82a510-63fe-11f0-bd2b-0cc47a4c8e46"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "9e3d34c0-6e4b-11f1-b2be-0cc47a4c8e34",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "4b7a76dc-63f5-11f0-8945-0cc47a4c8e2e"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "82241518-6e48-11f1-999c-0cc47a4c8e2a",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "4c339c5c-63f5-11f0-8e99-0cc47a4d7628"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "74859ff8-6e48-11f1-8aa8-0cc47a7ab7a0",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "7005ecea-fde1-11ef-9324-0025905a48f0"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "6aa0b08a-6e49-11f1-8ec0-0cc47a4d76c0",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "6fdf58be-fde1-11ef-9262-0025905b8592"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "6a7eed06-6e49-11f1-946c-0cc47a74524e",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk0.root",
+          "name": "Events",
+          "uuid": "d0b5018e-fdeb-11ef-b3c2-0025905b85fe"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk0.root",
+              "name": "Events",
+              "uuid": "921ae430-6e4b-11f1-9e63-0cc47a4d765a",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk1.root",
+          "name": "Events",
+          "uuid": "d0b50710-fdeb-11ef-ae16-0025905b85d0"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk1.root",
+              "name": "Events",
+              "uuid": "8e54891e-6e4b-11f1-8139-0cc47a4c8e3c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016B/picoAOD.root",
+          "name": "Events",
+          "uuid": "5730c0e2-05bc-11ee-add8-f2bce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 598690,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPB/HCR_input.root",
+              "name": "Events",
+              "uuid": "be9a66fc-6ca7-11f1-b9cf-0cc47a4d76b8",
+              "num_entries": 598690,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016C/picoAOD.root",
+          "name": "Events",
+          "uuid": "4fc94130-05bc-11ee-994f-4cbce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 256268,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPC/HCR_input.root",
+              "name": "Events",
+              "uuid": "8b195d58-6c00-11f1-aac9-0cc47a4c8ece",
+              "num_entries": 256268,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016D/picoAOD.root",
+          "name": "Events",
+          "uuid": "68a72186-05bc-11ee-9d70-80bde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 421098,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPD/HCR_input.root",
+              "name": "Events",
+              "uuid": "f2e37f74-6ca8-11f1-8870-0cc47a4d765a",
+              "num_entries": 421098,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016E/picoAOD.root",
+          "name": "Events",
+          "uuid": "61f82b00-05bc-11ee-8e9b-16bce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 395976,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPE/HCR_input.root",
+              "name": "Events",
+              "uuid": "c60b273a-6bff-11f1-895b-0cc47a745294",
+              "num_entries": 395976,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016F/picoAOD.root",
+          "name": "Events",
+          "uuid": "6c873192-05bc-11ee-b259-80bde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 311677,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPF/HCR_input.root",
+              "name": "Events",
+              "uuid": "c886ffe6-6c9c-11f1-a787-0cc47a4c8e26",
+              "num_entries": 311677,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016G/picoAOD.root",
+          "name": "Events",
+          "uuid": "8baeb004-05bc-11ee-b86a-5bbce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 9977,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPG/HCR_input.root",
+              "name": "Events",
+              "uuid": "b5b52504-6c48-11f1-b741-0cc47a4c8e38",
+              "num_entries": 9977,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016H/picoAOD.root",
+          "name": "Events",
+          "uuid": "90f94010-05bc-11ee-8256-13bde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 903644,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPH/HCR_input.root",
+              "name": "Events",
+              "uuid": "73c7e874-6c9e-11f1-a667-0cc47a4d7636",
+              "num_entries": 903644,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2017C/picoAOD.root",
+          "name": "Events",
+          "uuid": "04e760b0-05bd-11ee-8496-29bde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 498557,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17C/HCR_input.root",
+              "name": "Events",
+              "uuid": "41d8285c-6c9d-11f1-8aa0-0cc47a4c8f0a",
+              "num_entries": 498557,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2017D/picoAOD.root",
+          "name": "Events",
+          "uuid": "27baffd4-05bd-11ee-b80a-3ebde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 234161,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17D/HCR_input.root",
+              "name": "Events",
+              "uuid": "5c72f39e-6c9e-11f1-b16d-0cc47a4c8e98",
+              "num_entries": 234161,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2017E/picoAOD.root",
+          "name": "Events",
+          "uuid": "e833ce54-05bc-11ee-a472-0ebce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 549026,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17E/HCR_input.root",
+              "name": "Events",
+              "uuid": "6948e3d2-6c01-11f1-8eb1-0cc47a4d766c",
+              "num_entries": 549026,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2017F/picoAOD.root",
+          "name": "Events",
+          "uuid": "0e62795e-05bd-11ee-9bf1-14bce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 710245,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17F/HCR_input.root",
+              "name": "Events",
+              "uuid": "0d0a26ea-6c00-11f1-b931-0cc47a4d765a",
+              "num_entries": 710245,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2018A/picoAOD.root",
+          "name": "Events",
+          "uuid": "109efe9a-05bd-11ee-a1fc-9ebde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 902005,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18A/HCR_input.root",
+              "name": "Events",
+              "uuid": "27ea658e-6c9f-11f1-ad0c-0cc47a4d7628",
+              "num_entries": 902005,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2018B/picoAOD.root",
+          "name": "Events",
+          "uuid": "eb8f6c84-05bc-11ee-affb-c7bce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 448667,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18B/HCR_input.root",
+              "name": "Events",
+              "uuid": "e177952a-6caa-11f1-9eba-0cc47a4c8e86",
+              "num_entries": 448667,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2018C/picoAOD.root",
+          "name": "Events",
+          "uuid": "27c58f3a-05bd-11ee-b80a-3ebde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 418436,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18C/HCR_input.root",
+              "name": "Events",
+              "uuid": "f11a86ba-6ca8-11f1-84d8-0cc47a4c8e5e",
+              "num_entries": 418436,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2018D/picoAOD.root",
+          "name": "Events",
+          "uuid": "e850b3fc-05bc-11ee-a472-0ebce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 1874829,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18D/HCR_input.root",
+              "name": "Events",
+              "uuid": "be10c258-6cac-11f1-817c-0cc47a4d767c",
+              "num_entries": 1874829,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "865a6a9e-df67-11f0-a411-0cc47a4c8e38"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "995f0dea-6ca5-11f1-a145-0cc47a4d7698",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "82110f92-df67-11f0-a525-0cc47a4c8eea"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "98fbaac0-6ca5-11f1-a11b-0cc47a4d7698",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "776245ca-df67-11f0-8f56-0cc47a4d760c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "690a297e-6c9e-11f1-a095-0cc47a4d7628",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "84103f7a-df67-11f0-bb3b-0cc47a4c8e38"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "67c33588-6c9e-11f1-a8de-0cc47a4d7628",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "7b9e1b14-df67-11f0-b56e-0cc47a4c8f30"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "b8d511f4-6c98-11f1-9f28-0cc47a4c8f12",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "71db5790-df67-11f0-b1a1-0cc47a4c8e3c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "b8d188cc-6c98-11f1-92ff-0cc47a4d76cc",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "8391503e-df67-11f0-bce7-0cc47a4d75f2"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "8508e41e-6cab-11f1-a429-0cc47a4c8f1c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "7bb768d0-df67-11f0-b86c-0cc47a4d767c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "8508d802-6cab-11f1-9502-0cc47a7452da",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "865a8f74-df67-11f0-aa58-0cc47a4d764a"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "c92d0e08-6cac-11f1-9b85-0cc47a4c8f2c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "84bf0726-df67-11f0-85e3-0cc47a4c8e26"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "c853d80e-6cac-11f1-a077-0cc47a4c8f2c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "8c4f6aee-df67-11f0-8ac5-0cc47a4d75f2"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "147d8952-6c01-11f1-bbfa-0cc47a4c8f1c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "8946db70-df67-11f0-a761-0cc47a4c8e1e"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "147d7570-6c01-11f1-81dd-0cc47a4c8f1c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "80a84328-df67-11f0-89b9-0cc47a4d7600"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "55ab592e-6bff-11f1-b2f8-0cc47a4d76ac",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "8b1e58ce-df67-11f0-8f56-0cc47a4d760c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "55ab1798-6bff-11f1-81c0-0cc47a4c8eba",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "7d26d32c-df67-11f0-a761-0cc47a4c8e1e"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "dea6c6fe-6c9b-11f1-8113-0cc47a4c8f18",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "89ecd80e-df67-11f0-a2ea-0cc47a4c8f30"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "e30f4c0c-6c9b-11f1-a63f-0cc47a4c8f18",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "895688f4-df67-11f0-8f97-0cc47a4c8f0c"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "b684b3e6-6c9d-11f1-8321-0cc47a4d7602",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "88bbbf0e-df67-11f0-9d6b-0cc47a4c8e38"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 84899,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "b66287f8-6c9d-11f1-9616-0cc47a4d767a",
+              "num_entries": 84899,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "7cfd4066-df67-11f0-8ac5-0cc47a4d75f2"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "a5d33e98-6c00-11f1-8b8f-0cc47a4c8e1c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "8c7e1934-df67-11f0-8b4d-0cc47a4d7650"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "a83e7b16-6c00-11f1-97f9-0cc47a4d7636",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "8a9975be-df67-11f0-b43b-0cc47a4d764a"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "85d9139e-6bfe-11f1-a5b2-0cc47a4c8e2e",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "89e8235e-df67-11f0-823b-0cc47a4c8f10"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "85d8e216-6bfe-11f1-be2f-0cc47a4d764a",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "7f1213cc-df67-11f0-8298-0cc47a4d75ec"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "99dc5f36-6c9e-11f1-9397-0cc47a4d75f2",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "85279020-df67-11f0-8fbf-0cc47a4d7666"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "99e21fd4-6c9e-11f1-ae98-0cc47a4d767c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "8b1e2e9e-df67-11f0-97c4-0cc47a4c8e38"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "f2a253a0-6c9e-11f1-a752-0cc47a4c8f12",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "865984e4-df67-11f0-a91a-0cc47a4c8eb0"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "f2889384-6c9e-11f1-b70c-0cc47a4d7640",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "8059d56c-df67-11f0-a5e1-0cc47a4d769a"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "91a909aa-6c98-11f1-848f-0cc47a4d76b2",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "85c0ea36-df67-11f0-b95c-0cc47a4c8f30"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "91a925de-6c98-11f1-9d46-0cc47a4c8e3c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk0.root",
+          "name": "Events",
+          "uuid": "6fa84406-df67-11f0-9d6b-0cc47a4c8e38"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk0.root",
+              "name": "Events",
+              "uuid": "378edec0-6bff-11f1-9b57-0cc47a4d760a",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk1.root",
+          "name": "Events",
+          "uuid": "7c2c0d7a-df67-11f0-8b4d-0cc47a4d7650"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100000,
+            "chunk": {
+              "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk1.root",
+              "name": "Events",
+              "uuid": "379d888a-6bff-11f1-8fed-0cc47a4d769c",
+              "num_entries": 100000,
+              "entry_start": null,
+              "entry_stop": null
+            }
+          }
+        ]
+      ]
+    ]
+  }
+}

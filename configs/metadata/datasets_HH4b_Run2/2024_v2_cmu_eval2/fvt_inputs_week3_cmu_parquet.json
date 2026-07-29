@@ -1,0 +1,58 @@
+{
+  "FvT_weight": {
+    "name": "FvT_weight",
+    "branches": [
+      "FvT"
+    ],
+    "data": [
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016F/picoAOD.root",
+          "name": "Events",
+          "uuid": "6c873192-05bc-11ee-b259-80bde183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100,
+            "chunk": {
+              "path": "inputs/parquet_friends/week3_eval2/FvT_weight/data_UL16_postVFPF__FvT_weight.parquet",
+              "name": "Events",
+              "uuid": null,
+              "num_entries": 100,
+              "entry_start": null,
+              "entry_stop": null,
+              "branches": [
+                "FvT"
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "path": "root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016G/picoAOD.root",
+          "name": "Events",
+          "uuid": "8baeb004-05bc-11ee-b86a-5bbce183beef"
+        },
+        [
+          {
+            "start": 0,
+            "stop": 100,
+            "chunk": {
+              "path": "inputs/parquet_friends/week3_eval2/FvT_weight/data_UL16_postVFPG__FvT_weight.parquet",
+              "name": "Events",
+              "uuid": null,
+              "num_entries": 100,
+              "entry_start": null,
+              "entry_stop": null,
+              "branches": [
+                "FvT"
+              ]
+            }
+          }
+        ]
+      ]
+    ]
+  }
+}

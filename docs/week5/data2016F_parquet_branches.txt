@@ -1,0 +1,225 @@
+Parquet file: outputs/consolidated_full/data2016F_consolidated.parquet
+Total branches: 222
+
+  1. run
+  2. luminosityBlock
+  3. event
+  4. nElectron
+  5. Electron_dr03EcalRecHitSumEt
+  6. Electron_dr03HcalDepth1TowerSumEt
+  7. Electron_dr03TkSumPt
+  8. Electron_eInvMinusPInv
+  9. Electron_eta
+ 10. Electron_hoe
+ 11. Electron_mass
+ 12. Electron_miniPFRelIso_all
+ 13. Electron_miniPFRelIso_chg
+ 14. Electron_mvaFall17V1Iso
+ 15. Electron_mvaFall17V1noIso
+ 16. Electron_mvaFall17V2Iso
+ 17. Electron_mvaFall17V2noIso
+ 18. Electron_pfRelIso03_all
+ 19. Electron_pfRelIso03_chg
+ 20. Electron_phi
+ 21. Electron_pt
+ 22. Electron_r9
+ 23. Electron_scEtOverPt
+ 24. Electron_sieie
+ 25. Electron_cutBased
+ 26. Electron_cutBased_Fall17_V1
+ 27. Electron_pdgId
+ 28. Electron_convVeto
+ 29. Electron_mvaFall17V2Iso_WP80
+ 30. Electron_mvaFall17V2Iso_WP90
+ 31. Electron_mvaFall17V2Iso_WPL
+ 32. nJet
+ 33. Jet_area
+ 34. Jet_btagCSVV2
+ 35. Jet_btagDeepB
+ 36. Jet_btagDeepFlavB
+ 37. Jet_chEmEF
+ 38. Jet_eta
+ 39. Jet_mass
+ 40. Jet_neEmEF
+ 41. Jet_phi
+ 42. Jet_pt
+ 43. Jet_rawFactor
+ 44. Jet_bRegCorr
+ 45. Jet_jetId
+ 46. Jet_puId
+ 47. L1PreFiringWeight_Dn
+ 48. L1PreFiringWeight_Nom
+ 49. L1PreFiringWeight_Up
+ 50. MET_MetUnclustEnUpDeltaX
+ 51. MET_MetUnclustEnUpDeltaY
+ 52. MET_covXX
+ 53. MET_covXY
+ 54. MET_covYY
+ 55. MET_phi
+ 56. MET_pt
+ 57. MET_significance
+ 58. MET_sumEt
+ 59. MET_sumPtUnclustered
+ 60. nMuon
+ 61. Muon_dxy
+ 62. Muon_dxyErr
+ 63. Muon_eta
+ 64. Muon_ip3d
+ 65. Muon_mass
+ 66. Muon_pfRelIso03_all
+ 67. Muon_pfRelIso03_chg
+ 68. Muon_pfRelIso04_all
+ 69. Muon_phi
+ 70. Muon_pt
+ 71. Muon_ptErr
+ 72. Muon_sip3d
+ 73. Muon_tkRelIso
+ 74. Muon_jetIdx
+ 75. Muon_pdgId
+ 76. Muon_highPtId
+ 77. Muon_looseId
+ 78. Muon_mediumId
+ 79. Muon_mediumPromptId
+ 80. Muon_mvaId
+ 81. Muon_pfIsoId
+ 82. Muon_softId
+ 83. Muon_tightId
+ 84. Muon_tkIsoId
+ 85. RawMET_phi
+ 86. RawMET_pt
+ 87. RawMET_sumEt
+ 88. fixedGridRhoFastjetAll
+ 89. PV_npvs
+ 90. PV_npvsGood
+ 91. Jet_cleanmask
+ 92. Flag_HBHENoiseFilter
+ 93. Flag_HBHENoiseIsoFilter
+ 94. Flag_CSCTightHaloFilter
+ 95. Flag_CSCTightHaloTrkMuUnvetoFilter
+ 96. Flag_CSCTightHalo2015Filter
+ 97. Flag_globalTightHalo2016Filter
+ 98. Flag_globalSuperTightHalo2016Filter
+ 99. Flag_HcalStripHaloFilter
+100. Flag_hcalLaserEventFilter
+101. Flag_EcalDeadCellTriggerPrimitiveFilter
+102. Flag_EcalDeadCellBoundaryEnergyFilter
+103. Flag_ecalBadCalibFilter
+104. Flag_goodVertices
+105. Flag_eeBadScFilter
+106. Flag_ecalLaserCorrFilter
+107. Flag_trkPOGFilters
+108. Flag_chargedHadronTrackResolutionFilter
+109. Flag_muonBadTrackFilter
+110. Flag_BadChargedCandidateFilter
+111. Flag_BadPFMuonFilter
+112. Flag_BadChargedCandidateSummer16Filter
+113. Flag_BadPFMuonSummer16Filter
+114. Flag_trkPOG_manystripclus53X
+115. Flag_trkPOG_toomanystripclus53X
+116. Flag_trkPOG_logErrorTooManyClusters
+117. Flag_METFilters
+118. HLT_QuadJet45_TripleBTagCSV_p087
+119. HLT_DoubleJet90_Double30_TripleBTagCSV_p087
+120. HLT_DoubleJetsC100_DoubleBTagCSV_p014_DoublePFJetsC100MaxDeta1p6
+121. pico_pseudoTagWeight
+122. mcPseudoTagWeight
+123. pico_weight
+124. pico_threeTag
+125. pico_fourTag
+126. nPVsGood
+127. canJet0_pt
+128. canJet1_pt
+129. canJet2_pt
+130. canJet3_pt
+131. canJet0_eta
+132. canJet1_eta
+133. canJet2_eta
+134. canJet3_eta
+135. canJet0_phi
+136. canJet1_phi
+137. canJet2_phi
+138. canJet3_phi
+139. canJet0_m
+140. canJet1_m
+141. canJet2_m
+142. canJet3_m
+143. d01TruthMatch
+144. d23TruthMatch
+145. d02TruthMatch
+146. d13TruthMatch
+147. d03TruthMatch
+148. d12TruthMatch
+149. truthMatch
+150. selectedViewTruthMatch
+151. dRjjClose
+152. dRjjOther
+153. aveAbsEta
+154. aveAbsEtaOth
+155. nAllNotCanJets
+156. notCanJet_pt
+157. notCanJet_eta
+158. notCanJet_phi
+159. notCanJet_m
+160. pico_HHSR
+161. pico_ZHSR
+162. pico_ZZSR
+163. pico_SB
+164. pico_SR
+165. leadStM
+166. sublStM
+167. st
+168. stNotCan
+169. m4j
+170. pico_nSelJets
+171. nPSTJets
+172. pico_passHLT
+173. passXWt
+174. pico_xW
+175. xt
+176. xWt
+177. pico_xbW
+178. xWbW
+179. nIsoMuons
+180. ttbarWeight
+181. xbW
+182. ZHSR
+183. SB
+184. ZZSR
+185. nSelJets
+186. weight
+187. xW
+188. fourTag
+189. SR
+190. HHSR
+191. threeTag
+192. passHLT
+193. nNotCanJet
+194. NotCanJet_phi
+195. NotCanJet_isSelJet
+196. NotCanJet_mass
+197. NotCanJet_pt
+198. NotCanJet_eta
+199. nCanJet
+200. CanJet_phi
+201. CanJet_pt
+202. CanJet_eta
+203. CanJet_mass
+204. pseudoTagWeight
+205. FvT
+206. ref_SvB_MA_hh
+207. ref_SvB_MA_ps_hh
+208. ref_SvB_MA_ps_zz
+209. ref_SvB_MA_phh
+210. ref_SvB_MA_tt_vs_mj
+211. ref_SvB_MA_ptt
+212. ref_SvB_MA_q_1234
+213. ref_SvB_MA_pzz
+214. ref_SvB_MA_zz
+215. ref_SvB_MA_q_1423
+216. ref_SvB_MA_pmj
+217. ref_SvB_MA_passMinPs
+218. ref_SvB_MA_zh
+219. ref_SvB_MA_ps
+220. ref_SvB_MA_q_1324
+221. ref_SvB_MA_pzh
+222. ref_SvB_MA_ps_zh

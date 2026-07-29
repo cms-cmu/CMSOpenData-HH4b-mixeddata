@@ -1,0 +1,50 @@
+# Standalone SvB training config
+#
+# template:
+# - model: path to model output
+# - FvT: path to existing FvT friend tree input
+
+main:
+  module: train
+  option:
+    - --max-loaders 1
+    - --max-trainers 1
+    - --device cpu
+
+model:
+  - module: HCR.SvB.ggF.baseline.Train
+    option:
+      - --roc-signal-by-category
+      - --kfold-seed SvB random
+      - --kfold-seed-offsets 0
+      - --training FixedStep
+      - epoch: 1
+        bs_init: 128
+      - --finetuning FinetuneStep
+      - epoch: 1
+        bs_init: 256
+
+dataset:
+  - module: HCR.SvB.Background
+    option:
+      - --metadata configs/metadata/datasets_HH4b_Run2/2024_v2_cmu/
+      - --mc-processes
+      - --max-workers 1
+      - --test-files 1
+      - --norm 3
+      - --JCM-weight "" configs/weights/JCM/jetCombinatoricModel_SB_2024_v2.yml@@JCM_weights
+      - --friends "" configs/metadata/datasets_HH4b_Run2/2024_v2_cmu/classifier_inputs_week3_cmu.json@@HCR_input
+      - --friends label:data configs/metadata/datasets_HH4b_Run2/2024_v2_cmu/fvt_inputs_week3_cmu.json@@FvT_weight
+
+  - module: HCR.SvB.Signal
+    option:
+      - --metadata configs/metadata/datasets_HH4b_Run2/2024_v2_cmu/
+      - --ggf-load-kl 1
+      - --max-workers 1
+      - --test-files 1
+      - --friends "" configs/metadata/datasets_HH4b_Run2/2024_v2_cmu/classifier_inputs_week3_cmu.json@@HCR_input
+
+setting:
+  - module: IO
+    option:
+      - output: "{model}"

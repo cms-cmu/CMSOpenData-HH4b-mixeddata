@@ -1,0 +1,1279 @@
+GluGluToHHTo4B_cHHH1_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_postVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_postVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_postVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_postVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_postVFP/picoAOD.root
+GluGluToHHTo4B_cHHH1_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_preVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_preVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_preVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_preVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL16_preVFP/picoAOD.root
+GluGluToHHTo4B_cHHH1_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/FvT_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/FvT_weight.chunk2.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/HCR_input.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/HCR_input.chunk2.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/JCM_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/JCM_weight.chunk2.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/SvB_MA.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/SvB_MA.chunk2.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/picoAOD.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL17/picoAOD.chunk2.root
+GluGluToHHTo4B_cHHH1_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/FvT_weight.chunk1.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/HCR_input.chunk1.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/JCM_weight.chunk1.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/SvB_MA.chunk1.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/GluGluToHHTo4B_cHHH1_UL18/picoAOD.chunk1.root
+ZH4b_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/FvT_weight.chunk1.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/HCR_input.chunk1.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/JCM_weight.chunk1.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/SvB_MA.chunk1.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_postVFP/picoAOD.chunk1.root
+ZH4b_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/FvT_weight.chunk1.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/HCR_input.chunk1.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/JCM_weight.chunk1.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/SvB_MA.chunk1.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL16_preVFP/picoAOD.chunk1.root
+ZH4b_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/FvT_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/FvT_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/FvT_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/FvT_weight.chunk4.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/HCR_input.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/HCR_input.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/HCR_input.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/HCR_input.chunk4.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/JCM_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/JCM_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/JCM_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/JCM_weight.chunk4.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/SvB_MA.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/SvB_MA.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/SvB_MA.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/SvB_MA.chunk4.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/picoAOD.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/picoAOD.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/picoAOD.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL17/picoAOD.chunk4.root
+ZH4b_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/FvT_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/FvT_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/FvT_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/FvT_weight.chunk4.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/HCR_input.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/HCR_input.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/HCR_input.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/HCR_input.chunk4.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/JCM_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/JCM_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/JCM_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/JCM_weight.chunk4.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/SvB_MA.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/SvB_MA.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/SvB_MA.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/SvB_MA.chunk4.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/picoAOD.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/picoAOD.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/picoAOD.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZH4b_UL18/picoAOD.chunk4.root
+ZZ4b_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/FvT_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/FvT_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/FvT_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/FvT_weight.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/FvT_weight.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/FvT_weight.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/FvT_weight.chunk7.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/HCR_input.chunk7.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/JCM_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/JCM_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/JCM_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/JCM_weight.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/JCM_weight.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/JCM_weight.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/JCM_weight.chunk7.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/SvB_MA.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/SvB_MA.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/SvB_MA.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/SvB_MA.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/SvB_MA.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/SvB_MA.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/SvB_MA.chunk7.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_postVFP/picoAOD.chunk7.root
+ZZ4b_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/FvT_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/FvT_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/FvT_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/FvT_weight.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/FvT_weight.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/FvT_weight.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/FvT_weight.chunk7.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/HCR_input.chunk7.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/JCM_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/JCM_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/JCM_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/JCM_weight.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/JCM_weight.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/JCM_weight.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/JCM_weight.chunk7.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/SvB_MA.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/SvB_MA.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/SvB_MA.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/SvB_MA.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/SvB_MA.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/SvB_MA.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/SvB_MA.chunk7.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL16_preVFP/picoAOD.chunk7.root
+ZZ4b_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk21.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/FvT_weight.chunk9.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk21.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/HCR_input.chunk9.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk21.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/JCM_weight.chunk9.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk21.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/SvB_MA.chunk9.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk21.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL17/picoAOD.chunk9.root
+ZZ4b_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/FvT_weight.chunk9.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/HCR_input.chunk9.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/JCM_weight.chunk9.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/SvB_MA.chunk9.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk15.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk16.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk17.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk18.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk19.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk20.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/ZZ4b_UL18/picoAOD.chunk9.root
+data2016B_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPB/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPB/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPB/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPB/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016B/picoAOD.root
+data2016C_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPC/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPC/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPC/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPC/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016C/picoAOD.root
+data2016D_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPD/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPD/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPD/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPD/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016D/picoAOD.root
+data2016E_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPE/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPE/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPE/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_preVFPE/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016E/picoAOD.root
+data2016F_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPF/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPF/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPF/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPF/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016F/picoAOD.root
+data2016G_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPG/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPG/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPG/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPG/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016G/picoAOD.root
+data2016H_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPH/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPH/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPH/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL16_postVFPH/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2016H/picoAOD.root
+data2017C_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17C/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17C/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17C/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17C/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2017C/picoAOD.root
+data2017D_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17D/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17D/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17D/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17D/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2017D/picoAOD.root
+data2017E_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17E/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17E/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17E/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17E/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2017E/picoAOD.root
+data2017F_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17F/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17F/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17F/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL17F/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2017F/picoAOD.root
+data2018A_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18A/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18A/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18A/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18A/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2018A/picoAOD.root
+data2018B_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18B/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18B/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18B/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18B/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2018B/picoAOD.root
+data2018C_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18C/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18C/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18C/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18C/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2018C/picoAOD.root
+data2018D_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18D/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18D/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18D/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data_UL18D/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/data2018D/picoAOD.root
+mixeddata_all_UL16_postVFPF:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/FvT_weight_mixed_all.chunk2.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/HCR_input_mixed_all.chunk2.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/JCM_weight_mixed_all.chunk2.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/SvB_MA_mixed_all.chunk2.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPF/picoAOD_mixed_all.chunk2.root
+mixeddata_all_UL16_postVFPG:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/FvT_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/FvT_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/FvT_weight_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/FvT_weight_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/FvT_weight_mixed_all.chunk7.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/HCR_input_mixed_all.chunk7.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/JCM_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/JCM_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/JCM_weight_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/JCM_weight_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/JCM_weight_mixed_all.chunk7.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/SvB_MA_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/SvB_MA_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/SvB_MA_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/SvB_MA_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/SvB_MA_mixed_all.chunk7.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPG/picoAOD_mixed_all.chunk7.root
+mixeddata_all_UL16_postVFPH:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/FvT_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/FvT_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/FvT_weight_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/FvT_weight_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/FvT_weight_mixed_all.chunk7.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/HCR_input_mixed_all.chunk7.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/JCM_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/JCM_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/JCM_weight_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/JCM_weight_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/JCM_weight_mixed_all.chunk7.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/SvB_MA_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/SvB_MA_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/SvB_MA_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/SvB_MA_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/SvB_MA_mixed_all.chunk7.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_postVFPH/picoAOD_mixed_all.chunk7.root
+mixeddata_all_UL16_preVFPB:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/FvT_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/FvT_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/FvT_weight_mixed_all.chunk5.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/HCR_input_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/HCR_input_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/HCR_input_mixed_all.chunk5.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/JCM_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/JCM_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/JCM_weight_mixed_all.chunk5.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/SvB_MA_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/SvB_MA_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/SvB_MA_mixed_all.chunk5.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/picoAOD_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/picoAOD_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPB/picoAOD_mixed_all.chunk5.root
+mixeddata_all_UL16_preVFPC:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/FvT_weight_mixed_all.chunk2.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/HCR_input_mixed_all.chunk2.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/JCM_weight_mixed_all.chunk2.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/SvB_MA_mixed_all.chunk2.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPC/picoAOD_mixed_all.chunk2.root
+mixeddata_all_UL16_preVFPD:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/FvT_weight_mixed_all.chunk3.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/HCR_input_mixed_all.chunk3.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/JCM_weight_mixed_all.chunk3.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/SvB_MA_mixed_all.chunk3.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPD/picoAOD_mixed_all.chunk3.root
+mixeddata_all_UL16_preVFPE:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/FvT_weight_mixed_all.chunk3.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/HCR_input_mixed_all.chunk3.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/JCM_weight_mixed_all.chunk3.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/SvB_MA_mixed_all.chunk3.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL16_preVFPE/picoAOD_mixed_all.chunk3.root
+mixeddata_all_UL17C:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/FvT_weight_mixed_all.chunk3.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/HCR_input_mixed_all.chunk3.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/JCM_weight_mixed_all.chunk3.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/SvB_MA_mixed_all.chunk3.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17C/picoAOD_mixed_all.chunk3.root
+mixeddata_all_UL17D:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/FvT_weight_mixed_all.chunk1.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/HCR_input_mixed_all.chunk1.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/JCM_weight_mixed_all.chunk1.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/SvB_MA_mixed_all.chunk1.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17D/picoAOD_mixed_all.chunk1.root
+mixeddata_all_UL17E:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/FvT_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/FvT_weight_mixed_all.chunk4.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/HCR_input_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/HCR_input_mixed_all.chunk4.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/JCM_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/JCM_weight_mixed_all.chunk4.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/SvB_MA_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/SvB_MA_mixed_all.chunk4.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/picoAOD_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17E/picoAOD_mixed_all.chunk4.root
+mixeddata_all_UL17F:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/FvT_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/FvT_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/FvT_weight_mixed_all.chunk5.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/HCR_input_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/HCR_input_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/HCR_input_mixed_all.chunk5.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/JCM_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/JCM_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/JCM_weight_mixed_all.chunk5.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/SvB_MA_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/SvB_MA_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/SvB_MA_mixed_all.chunk5.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/picoAOD_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/picoAOD_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL17F/picoAOD_mixed_all.chunk5.root
+mixeddata_all_UL18A:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/FvT_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/FvT_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/FvT_weight_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/FvT_weight_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/FvT_weight_mixed_all.chunk7.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/HCR_input_mixed_all.chunk7.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/JCM_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/JCM_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/JCM_weight_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/JCM_weight_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/JCM_weight_mixed_all.chunk7.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/SvB_MA_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/SvB_MA_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/SvB_MA_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/SvB_MA_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/SvB_MA_mixed_all.chunk7.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18A/picoAOD_mixed_all.chunk7.root
+mixeddata_all_UL18B:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/FvT_weight_mixed_all.chunk3.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/HCR_input_mixed_all.chunk3.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/JCM_weight_mixed_all.chunk3.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/SvB_MA_mixed_all.chunk3.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18B/picoAOD_mixed_all.chunk3.root
+mixeddata_all_UL18C:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/FvT_weight_mixed_all.chunk3.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/HCR_input_mixed_all.chunk3.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/JCM_weight_mixed_all.chunk3.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/SvB_MA_mixed_all.chunk3.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18C/picoAOD_mixed_all.chunk3.root
+mixeddata_all_UL18D:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/FvT_weight_mixed_all.chunk9.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/HCR_input_mixed_all.chunk9.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/JCM_weight_mixed_all.chunk9.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/SvB_MA_mixed_all.chunk9.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk0.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk1.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk10.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk11.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk12.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk13.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk14.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk2.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk3.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk4.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk5.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk6.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk7.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk8.root
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/mixeddata_all_UL18D/picoAOD_mixed_all.chunk9.root
+TTTo2L2Nu_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_postVFP/picoAOD.root
+TTTo2L2Nu_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL16_preVFP/picoAOD.root
+TTTo2L2Nu_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL17/picoAOD.root
+TTTo2L2Nu_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTTo2L2Nu_UL18/picoAOD.root
+TTToHadronic_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_postVFP/picoAOD.root
+TTToHadronic_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL16_preVFP/picoAOD.root
+TTToHadronic_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL17/picoAOD.root
+TTToHadronic_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToHadronic_UL18/picoAOD.root
+TTToSemiLeptonic_UL16_postVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_postVFP/picoAOD.root
+TTToSemiLeptonic_UL16_preVFP:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL16_preVFP/picoAOD.root
+TTToSemiLeptonic_UL17:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL17/picoAOD.root
+TTToSemiLeptonic_UL18:
+  FvT_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/FvT_weight.root
+  HCR_input:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/HCR_input.root
+  JCM_weight:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/JCM_weight.root
+  SvB_MA:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/SvB_MA.root
+  picoAOD:
+  - root://cmsdata.phys.cmu.edu//store/group/HH4b/Run2/opendata_project/TTToSemiLeptonic_UL18/picoAOD.root
