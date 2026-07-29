@@ -48,3 +48,13 @@ Python emitted non-fatal warnings for existing `\[` escape sequences in classifi
 `created_file_paths.txt` lists the 337 files added or relocated into their final repository paths during the Week 7 refactor.
 
 All listed paths were verified to exist, with no duplicate or missing entries.
+
+## SvB and FvT classifier scope
+
+The standalone HCR codebase supports both SvB and FvT classification.
+
+SvB has complete, tested standalone training and evaluation workflows. FvT has functional dataset and model components, but still requires dedicated workflow YAML files and end-to-end validation.
+
+The detailed technical review is available in:
+
+    docs/week7/fvt_scope_review.md
