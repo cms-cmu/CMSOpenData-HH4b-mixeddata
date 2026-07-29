@@ -42,3 +42,9 @@ The refactored repository passed the following checks:
 - Git whitespace validation passed.
 
 Python emitted non-fatal warnings for existing `\[` escape sequences in classifier help strings. These warnings did not prevent compilation.
+
+## Created or relocated file paths
+
+`created_file_paths.txt` lists the 337 files added or relocated into their final repository paths during the Week 7 refactor.
+
+All listed paths were verified to exist, with no duplicate or missing entries.
